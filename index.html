@@ -55,7 +55,8 @@
           <input type="hidden" name="utm_campaign" id="utm_campaign">
           <input type="hidden" name="utm_term" id="utm_term">
           <input type="hidden" name="utm_content" id="utm_content">
-          <!-- After submit redirect to local thank-you page for measuring conversions without GA -->
+          <!-- Add a subject so Formspree emails are labelled, then redirect to local thank-you page -->
+          <input type="hidden" name="_subject" value="Signup: Sydney Student Discounts">
           <input type="hidden" name="_next" value="/thanks.html">
           <button type="submit">Join the free weekly list</button>
         </form>
@@ -67,6 +68,10 @@
 
   <main class="container">
     <section class="filters">
+      <div class="tabs" style="display:flex;gap:8px;align-items:center;margin-bottom:8px;">
+        <button id="tab-deals" class="active">Deals</button>
+        <button id="tab-resources">Course resources</button>
+      </div>
       <input id="search" placeholder="Search deals or retailers (e.g., coffee, tech)" />
       <select id="filter-uni">
         <option value="all">All unis</option>
@@ -90,6 +95,18 @@
         <option value="housing">Housing & Storage</option>
         <option value="services">Services</option>
       </select>
+      <!-- Resource-specific controls (shown when Course resources tab active) -->
+      <div id="resource-controls" style="display:none;margin-top:12px;">
+        <input id="resource-search" placeholder="Search resources (title or provider)" style="width:60%;min-width:200px;" />
+        <select id="resource-filter-cat">
+          <option value="all">All categories</option>
+          <option value="business">Business</option>
+          <option value="law">Law</option>
+          <option value="math">Math</option>
+          <option value="data">Data / Programming</option>
+          <option value="study">Study / Skills</option>
+        </select>
+      </div>
     </section>
 
     <section class="places-search">
@@ -104,6 +121,10 @@
 
     <section id="deals" class="deals-grid">
       <!-- Deals rendered here by script.js -->
+    </section>
+
+    <section id="resources" class="deals-grid" style="display:none;">
+      <!-- Course resources rendered here by script.js -->
     </section>
 
     <section id="submit" class="submit">
@@ -122,12 +143,13 @@
           <option value="western">Western Sydney</option>
           <option value="uow">UOW (Wollongong)</option>
         </select>
-        <input type="hidden" name="utm_source" id="submit_utm_source">
+  <input type="hidden" name="utm_source" id="submit_utm_source">
         <input type="hidden" name="utm_medium" id="submit_utm_medium">
         <input type="hidden" name="utm_campaign" id="submit_utm_campaign">
         <input type="hidden" name="utm_term" id="submit_utm_term">
         <input type="hidden" name="utm_content" id="submit_utm_content">
-        <input type="hidden" name="_next" value="/thanks.html">
+  <input type="hidden" name="_subject" value="New deal submission: Sydney Student Discounts">
+  <input type="hidden" name="_next" value="/thanks.html">
         <button type="submit">Send deal</button>
       </form>
     </section>
