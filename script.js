@@ -7,9 +7,16 @@ let deals = [];
 
 async function loadDeals(){
   try{
-    const res = await fetch('deals.json');
-    deals = await res.json();
-    renderDeals(deals);
+    // Prefer server-backed deals (Airtable) via /api/deals when available, fallback to local deals.json
+    let res = await fetch('/api/deals');
+    if(!res.ok){
+      // fallback
+      res = await fetch('deals.json');
+    }
+    const payload = await res.json();
+    // api/deals returns {ok:true, results: [...]}
+    deals = Array.isArray(payload.results) ? payload.results : (Array.isArray(payload) ? payload : payload.results || []);
+    renderDeals(deals || []);
     // also pre-load resources for the test page
     loadResources();
   }catch(e){
