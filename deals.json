@@ -2157,7 +2157,8 @@
     "code": "",
     "id": "field-day-1",
     "title": "Field Day",
-    "placeholder": false
+    "placeholder": false,
+    "logo": "/assets/logos/field-day-1.png"
   },
   {
     "retailer": "Lost Paradise",
@@ -2464,7 +2465,8 @@
     "code": "",
     "id": "jd-sports-1",
     "title": "JD Sports",
-    "placeholder": false
+    "placeholder": false,
+    "logo": "/assets/logos/jd-sports-1.png"
   },
   {
     "retailer": "Foot Locker",
