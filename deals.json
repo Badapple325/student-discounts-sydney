@@ -522,7 +522,7 @@
   {
     "retailer": "Sydney Uni Sport & Fitness",
     "category": "Fitness",
-    "university": "all",
+    "university": "usyd",
     "universityLabel": "",
     "description": "Discounted short-term furniture hire for students moving into share houses.",
     "link": "https://susf.com.au",
@@ -535,7 +535,7 @@
   {
     "retailer": "UNSW Roundhouse",
     "category": "Entertainment/Food",
-    "university": "all",
+    "university": "unsw",
     "universityLabel": "",
     "description": "First month free on student storage units near campuses.",
     "link": "https://www.arc.unsw.edu.au",
@@ -600,7 +600,7 @@
   {
     "retailer": "The Roundhouse Bar",
     "category": "Entertainment/Food",
-    "university": "all",
+    "university": "unsw",
     "universityLabel": "",
     "description": "Discounted private music lessons for students.",
     "link": "https://www.arc.unsw.edu.au",
@@ -645,7 +645,7 @@
     "link": "https://education.github.com/pack",
     "how": "Verify using GitHub Education (student email or ID)",
     "code": "",
-    "id": "github-student-developer-pack-1",
+    "id": "github-student-developer-pack",
     "title": "GitHub Student Developer Pack",
     "placeholder": false
   },
@@ -658,7 +658,7 @@
     "link": "https://transportnsw.info/tickets-opal/opal-card-concessions",
     "how": "Check eligibility on Transport NSW and follow their application instructions",
     "code": "",
-    "id": "opal-concession-student-info-1",
+    "id": "opal-concession-student-info",
     "title": "Opal Concession & Student Info",
     "placeholder": false
   },
@@ -673,7 +673,7 @@
     "how": "Show student ID at counter",
     "code": "",
     "placeholder": true,
-    "id": "local-campus-cafe-2"
+    "id": "local-campus-cafe"
   },
   {
     "title": "Inner West Coffee",
@@ -686,7 +686,7 @@
     "how": "Show student concession card",
     "code": "",
     "placeholder": true,
-    "id": "inner-west-coffee-2"
+    "id": "inner-west-coffee"
   },
   {
     "title": "Campus Gym Discount",
@@ -699,7 +699,7 @@
     "how": "Sign up at gym desk with student email",
     "code": "",
     "placeholder": true,
-    "id": "campus-gym-discount-2"
+    "id": "campus-gym-discount"
   },
   {
     "title": "Books & More",
@@ -712,7 +712,7 @@
     "how": "Use your .edu.au email for online checkout",
     "code": "",
     "placeholder": true,
-    "id": "books-more-2"
+    "id": "books-more"
   },
   {
     "title": "StudentTech Store",
@@ -725,7 +725,7 @@
     "how": "Verify with student email or upload student ID",
     "code": "TECH10",
     "placeholder": true,
-    "id": "studenttech-store-2"
+    "id": "studenttech-store"
   },
   {
     "title": "Fitness Studio — Newtown",
@@ -738,7 +738,7 @@
     "how": "Show student ID on arrival",
     "code": "",
     "placeholder": true,
-    "id": "fitness-studio-newtown-2"
+    "id": "fitness-studio-newtown"
   },
   {
     "title": "Ramen House",
@@ -751,7 +751,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "ramen-house-2"
+    "id": "ramen-house"
   },
   {
     "title": "Clothing Outlet",
@@ -764,7 +764,7 @@
     "how": "Show student ID at register",
     "code": "",
     "placeholder": true,
-    "id": "clothing-outlet-2"
+    "id": "clothing-outlet"
   },
   {
     "title": "Local Taxi App",
@@ -777,7 +777,7 @@
     "how": "Verify student email in app",
     "code": "",
     "placeholder": true,
-    "id": "local-taxi-app-2"
+    "id": "local-taxi-app"
   },
   {
     "title": "Cinema Night",
@@ -790,7 +790,7 @@
     "how": "Buy online with student promo code",
     "code": "",
     "placeholder": true,
-    "id": "cinema-night-2"
+    "id": "cinema-night"
   },
   {
     "title": "Language Course Discount",
@@ -803,7 +803,7 @@
     "how": "Register with student email",
     "code": "",
     "placeholder": true,
-    "id": "language-course-discount-2"
+    "id": "language-course-discount"
   },
   {
     "title": "Co-working Day Pass",
@@ -816,7 +816,7 @@
     "how": "Show student ID at check-in",
     "code": "",
     "placeholder": true,
-    "id": "co-working-day-pass-2"
+    "id": "co-working-day-pass"
   },
   {
     "title": "Bike Shop",
@@ -829,7 +829,7 @@
     "how": "Mention student discount in shop",
     "code": "",
     "placeholder": true,
-    "id": "bike-shop-2"
+    "id": "bike-shop"
   },
   {
     "title": "Photo Prints",
@@ -842,7 +842,7 @@
     "how": "Use student email at checkout",
     "code": "",
     "placeholder": true,
-    "id": "photo-prints-2"
+    "id": "photo-prints"
   },
   {
     "title": "Coffee Chain X",
@@ -855,7 +855,7 @@
     "how": "Register with student email",
     "code": "",
     "placeholder": true,
-    "id": "coffee-chain-x-2"
+    "id": "coffee-chain-x"
   },
   {
     "title": "Study Software — Pro",
@@ -868,7 +868,7 @@
     "how": "Apply student discount code at checkout",
     "code": "STUDY50",
     "placeholder": true,
-    "id": "study-software-pro-2"
+    "id": "study-software-pro"
   },
   {
     "title": "Bike Share Promo",
@@ -881,7 +881,7 @@
     "how": "Enter university email to claim",
     "code": "",
     "placeholder": true,
-    "id": "bike-share-promo-2"
+    "id": "bike-share-promo"
   },
   {
     "title": "Local Pizzeria",
@@ -894,7 +894,7 @@
     "how": "Order in-store and show ID",
     "code": "",
     "placeholder": true,
-    "id": "local-pizzeria-2"
+    "id": "local-pizzeria"
   },
   {
     "title": "Tech Repair — Student Rate",
@@ -907,7 +907,7 @@
     "how": "Show student ID at drop-off",
     "code": "",
     "placeholder": true,
-    "id": "tech-repair-student-rate-2"
+    "id": "tech-repair-student-rate"
   },
   {
     "title": "Campus Barber",
@@ -920,7 +920,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "campus-barber-2"
+    "id": "campus-barber"
   },
   {
     "title": "Study Cafe — Glebe",
@@ -933,7 +933,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "study-cafe-glebe-2"
+    "id": "study-cafe-glebe"
   },
   {
     "title": "Stationery Express",
@@ -946,7 +946,7 @@
     "how": "Enter student email at checkout",
     "code": "",
     "placeholder": true,
-    "id": "stationery-express-2"
+    "id": "stationery-express"
   },
   {
     "title": "Coding Bootcamp Discount",
@@ -959,7 +959,7 @@
     "how": "Apply student code at signup",
     "code": "",
     "placeholder": true,
-    "id": "coding-bootcamp-discount-2"
+    "id": "coding-bootcamp-discount"
   },
   {
     "title": "Vintage Clothing Lane",
@@ -972,7 +972,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "vintage-clothing-lane-2"
+    "id": "vintage-clothing-lane"
   },
   {
     "title": "Photo Studio Student Rate",
@@ -985,7 +985,7 @@
     "how": "Book online and mention student discount",
     "code": "",
     "placeholder": true,
-    "id": "photo-studio-student-rate-2"
+    "id": "photo-studio-student-rate"
   },
   {
     "title": "Boba Spot",
@@ -998,7 +998,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "boba-spot-2"
+    "id": "boba-spot"
   },
   {
     "title": "Laptop Accessories Store",
@@ -1011,7 +1011,7 @@
     "how": "Verify with student email",
     "code": "",
     "placeholder": true,
-    "id": "laptop-accessories-store-2"
+    "id": "laptop-accessories-store"
   },
   {
     "title": "Yoga Studio — Student Mat Class",
@@ -1024,7 +1024,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "yoga-studio-student-mat-class-2"
+    "id": "yoga-studio-student-mat-class"
   },
   {
     "title": "Public Transport Card Top-up Offer",
@@ -1037,7 +1037,7 @@
     "how": "Register with student email",
     "code": "",
     "placeholder": true,
-    "id": "public-transport-card-top-up-offer-2"
+    "id": "public-transport-card-top-up-offer"
   },
   {
     "title": "Cheap Textbook Resale",
@@ -1050,7 +1050,7 @@
     "how": "Sign up with student email",
     "code": "",
     "placeholder": true,
-    "id": "cheap-textbook-resale-2"
+    "id": "cheap-textbook-resale"
   },
   {
     "title": "Student Meal Box",
@@ -1063,7 +1063,7 @@
     "how": "Subscribe with student email",
     "code": "MEAL30",
     "placeholder": true,
-    "id": "student-meal-box-2"
+    "id": "student-meal-box"
   },
   {
     "title": "Busker's Music Shop",
@@ -1076,7 +1076,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "busker-s-music-shop-2"
+    "id": "busker-s-music-shop"
   },
   {
     "title": "Campus Safe Ride Program",
@@ -1089,7 +1089,7 @@
     "how": "Verify student email in app",
     "code": "",
     "placeholder": true,
-    "id": "campus-safe-ride-program-2"
+    "id": "campus-safe-ride-program"
   },
   {
     "title": "UOW Campus Cafe",
@@ -1102,7 +1102,7 @@
     "how": "Show student ID at counter",
     "code": "",
     "placeholder": true,
-    "id": "uow-campus-cafe-2"
+    "id": "uow-campus-cafe"
   },
   {
     "title": "Wollongong Gym Student Rate",
@@ -1115,7 +1115,7 @@
     "how": "Sign up with student email or show ID",
     "code": "",
     "placeholder": true,
-    "id": "wollongong-gym-student-rate-2"
+    "id": "wollongong-gym-student-rate"
   },
   {
     "title": "UOW Bookshop Discount",
@@ -1128,7 +1128,7 @@
     "how": "Present student ID at checkout",
     "code": "",
     "placeholder": true,
-    "id": "uow-bookshop-discount-2"
+    "id": "uow-bookshop-discount"
   },
   {
     "title": "Wollongong Cinema Students",
@@ -1141,7 +1141,7 @@
     "how": "Use student promo code online or show ID",
     "code": "",
     "placeholder": true,
-    "id": "wollongong-cinema-students-2"
+    "id": "wollongong-cinema-students"
   },
   {
     "title": "UOW Bus Discount",
@@ -1154,7 +1154,7 @@
     "how": "Register with student email",
     "code": "",
     "placeholder": true,
-    "id": "uow-bus-discount-2"
+    "id": "uow-bus-discount"
   },
   {
     "title": "Wollongong Bike Repair",
@@ -1167,7 +1167,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "wollongong-bike-repair-2"
+    "id": "wollongong-bike-repair"
   },
   {
     "title": "UOW Language Workshops",
@@ -1180,7 +1180,7 @@
     "how": "Sign up with student email",
     "code": "",
     "placeholder": true,
-    "id": "uow-language-workshops-2"
+    "id": "uow-language-workshops"
   },
   {
     "title": "Furniture Hire — Student Pack",
@@ -1193,7 +1193,7 @@
     "how": "Verify with student email",
     "code": "",
     "placeholder": true,
-    "id": "furniture-hire-student-pack-2"
+    "id": "furniture-hire-student-pack"
   },
   {
     "title": "Student Storage Promo",
@@ -1206,7 +1206,7 @@
     "how": "Book online and use student code",
     "code": "",
     "placeholder": true,
-    "id": "student-storage-promo-2"
+    "id": "student-storage-promo"
   },
   {
     "title": "Online Tutoring Discount",
@@ -1219,7 +1219,7 @@
     "how": "Verify student email",
     "code": "",
     "placeholder": true,
-    "id": "online-tutoring-discount-2"
+    "id": "online-tutoring-discount"
   },
   {
     "title": "Student Phone Plan — Discount",
@@ -1232,7 +1232,7 @@
     "how": "Verify with student ID or email",
     "code": "",
     "placeholder": true,
-    "id": "student-phone-plan-discount-2"
+    "id": "student-phone-plan-discount"
   },
   {
     "title": "Art Supplies Student Discount",
@@ -1245,7 +1245,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "art-supplies-student-discount-2"
+    "id": "art-supplies-student-discount"
   },
   {
     "title": "Student Co-living Discount",
@@ -1258,7 +1258,7 @@
     "how": "Apply with student email",
     "code": "",
     "placeholder": true,
-    "id": "student-co-living-discount-2"
+    "id": "student-co-living-discount"
   },
   {
     "title": "Music Lessons — Student Rate",
@@ -1271,7 +1271,7 @@
     "how": "Book with student email",
     "code": "",
     "placeholder": true,
-    "id": "music-lessons-student-rate-2"
+    "id": "music-lessons-student-rate"
   },
   {
     "title": "Discounted 3D Printing",
@@ -1284,7 +1284,7 @@
     "how": "Upload student ID when ordering",
     "code": "",
     "placeholder": true,
-    "id": "discounted-3d-printing-2"
+    "id": "discounted-3d-printing"
   },
   {
     "title": "Student Gym — Wollongong Climb",
@@ -1297,7 +1297,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "student-gym-wollongong-climb-2"
+    "id": "student-gym-wollongong-climb"
   },
   {
     "retailer": "Apple",
@@ -1549,7 +1549,7 @@
   {
     "retailer": "Hoyts",
     "category": "Entertainment",
-    "university": "all",
+    "university": "uts",
     "universityLabel": "",
     "description": "Broadway & Wetherill Park",
     "link": "https://www.hoyts.com.au",
@@ -1627,7 +1627,7 @@
   {
     "retailer": "Oporto",
     "category": "Food",
-    "university": "all",
+    "university": "unsw",
     "universityLabel": "",
     "description": "Near UNSW Kensington",
     "link": "https://studentedge.org/au/deals/oporto",
@@ -1640,7 +1640,7 @@
   {
     "retailer": "Mad Mex",
     "category": "Food",
-    "university": "all",
+    "university": "uts",
     "universityLabel": "",
     "description": "UTS Broadway",
     "link": "https://www.madmex.com.au",
@@ -1653,7 +1653,7 @@
   {
     "retailer": "Guzman y Gomez",
     "category": "Food",
-    "university": "all",
+    "university": "usyd",
     "universityLabel": "",
     "description": "USYD Camperdown",
     "link": "https://www.guzmanygomez.com.au",
@@ -1666,7 +1666,7 @@
   {
     "retailer": "Fitness First",
     "category": "Fitness",
-    "university": "all",
+    "university": "mq",
     "universityLabel": "",
     "description": "Macquarie Park & Bondi",
     "link": "https://www.fitnessfirst.com.au",
@@ -1679,7 +1679,7 @@
   {
     "retailer": "Anytime Fitness",
     "category": "Fitness",
-    "university": "all",
+    "university": "uow",
     "universityLabel": "",
     "description": "Near UOW Wollongong",
     "link": "https://www.anytimefitness.com.au",
@@ -1744,7 +1744,7 @@
   {
     "retailer": "UNSW Bookshop",
     "category": "Education",
-    "university": "all",
+    "university": "unsw",
     "universityLabel": "",
     "description": "UNSW Kensington",
     "link": "https://www.bookshop.unsw.edu.au",
@@ -1757,7 +1757,7 @@
   {
     "retailer": "UTS Co-op Bookshop",
     "category": "Education",
-    "university": "all",
+    "university": "uts",
     "universityLabel": "",
     "description": "UTS Broadway",
     "link": "https://coop.com.au",
@@ -1770,7 +1770,7 @@
   {
     "retailer": "Macquarie Uni Sport",
     "category": "Fitness",
-    "university": "all",
+    "university": "mq",
     "universityLabel": "",
     "description": "Macquarie University",
     "link": "https://www.mq.edu.au/sport",
@@ -1783,7 +1783,7 @@
   {
     "retailer": "UOW Pulse",
     "category": "Mixed",
-    "university": "all",
+    "university": "uow",
     "universityLabel": "",
     "description": "UOW Wollongong",
     "link": "https://pulse.uow.edu.au",
@@ -1796,7 +1796,7 @@
   {
     "retailer": "Western Sydney Uni Village",
     "category": "Food",
-    "university": "all",
+    "university": "usyd",
     "universityLabel": "",
     "description": "Parramatta & Penrith",
     "link": "https://www.westernsydney.edu.au",
@@ -1809,7 +1809,7 @@
   {
     "retailer": "Notre Dame Uni Café",
     "category": "Food",
-    "university": "all",
+    "university": "uts",
     "universityLabel": "",
     "description": "Broadway",
     "link": "https://www.notredame.edu.au",
@@ -1822,7 +1822,7 @@
   {
     "retailer": "Sydney Uni Sport & Fitness",
     "category": "Fitness",
-    "university": "all",
+    "university": "usyd",
     "universityLabel": "",
     "description": "USYD Camperdown",
     "link": "https://susf.com.au",
@@ -1835,7 +1835,7 @@
   {
     "retailer": "UNSW Roundhouse",
     "category": "Entertainment/Food",
-    "university": "all",
+    "university": "unsw",
     "universityLabel": "",
     "description": "UNSW Kensington",
     "link": "https://www.arc.unsw.edu.au",
@@ -1848,7 +1848,7 @@
   {
     "retailer": "Coogee Pavilion",
     "category": "Food/Entertainment",
-    "university": "all",
+    "university": "unsw",
     "universityLabel": "",
     "description": "Near UNSW Kensington",
     "link": "https://merivale.com/venues/coogeepavilion",
@@ -1874,7 +1874,7 @@
   {
     "retailer": "The Soda Factory",
     "category": "Entertainment/Food",
-    "university": "all",
+    "university": "uts",
     "universityLabel": "",
     "description": "Surry Hills (near UTS)",
     "link": "https://www.sodafactory.com.au",
@@ -1887,7 +1887,7 @@
   {
     "retailer": "The Underground Bar",
     "category": "Entertainment/Food",
-    "university": "all",
+    "university": "uts",
     "universityLabel": "",
     "description": "UTS Broadway",
     "link": "https://activateuts.com.au",
@@ -1900,7 +1900,7 @@
   {
     "retailer": "The Roundhouse Bar",
     "category": "Entertainment/Food",
-    "university": "all",
+    "university": "unsw",
     "universityLabel": "",
     "description": "UNSW Kensington",
     "link": "https://www.arc.unsw.edu.au",
@@ -1913,7 +1913,7 @@
   {
     "retailer": "UOW UniBar",
     "category": "Food/Entertainment",
-    "university": "all",
+    "university": "uow",
     "universityLabel": "",
     "description": "UOW Wollongong",
     "link": "https://unibar.uow.edu.au",
@@ -1926,7 +1926,7 @@
   {
     "retailer": "Western Sydney Uni Fitness",
     "category": "Fitness",
-    "university": "all",
+    "university": "usyd",
     "universityLabel": "",
     "description": "Parramatta & Penrith campuses",
     "link": "https://www.westernsydney.edu.au",
@@ -1952,7 +1952,7 @@
   {
     "retailer": "Manning Bar",
     "category": "Entertainment/Food",
-    "university": "all",
+    "university": "usyd",
     "universityLabel": "",
     "description": "USYD Camperdown",
     "link": "https://usu.edu.au",
@@ -1965,7 +1965,7 @@
   {
     "retailer": "The Loft UTS",
     "category": "Food/Entertainment",
-    "university": "all",
+    "university": "uts",
     "universityLabel": "",
     "description": "UTS Broadway",
     "link": "https://activateuts.com.au",
@@ -1978,7 +1978,7 @@
   {
     "retailer": "Macquarie Centre",
     "category": "Fashion/Food",
-    "university": "all",
+    "university": "mq",
     "universityLabel": "",
     "description": "Macquarie University",
     "link": "https://www.macquariecentre.com.au",
@@ -2004,7 +2004,7 @@
   {
     "retailer": "Betty’s Burgers",
     "category": "Food",
-    "university": "all",
+    "university": "uow",
     "universityLabel": "",
     "description": "Westfield Sydney & Wollongong",
     "link": "https://bettysburgers.com.au",
@@ -2017,7 +2017,7 @@
   {
     "retailer": "Bondi Icebergs",
     "category": "Fitness/Leisure",
-    "university": "all",
+    "university": "unsw",
     "universityLabel": "",
     "description": "Bondi (popular with UNSW students)",
     "link": "https://icebergs.com.au",
@@ -2056,7 +2056,7 @@
   {
     "retailer": "Powerhouse Museum",
     "category": "Entertainment",
-    "university": "all",
+    "university": "uts",
     "universityLabel": "",
     "description": "Ultimo (near UTS)",
     "link": "https://maas.museum/powerhouse",
@@ -2550,7 +2550,7 @@
   {
     "retailer": "Dendy Cinemas",
     "category": "Entertainment",
-    "university": "all",
+    "university": "usyd",
     "universityLabel": "",
     "description": "Newtown (near USYD)",
     "link": "https://www.dendy.com.au",
@@ -2563,7 +2563,7 @@
   {
     "retailer": "Ritz Cinema",
     "category": "Entertainment",
-    "university": "all",
+    "university": "unsw",
     "universityLabel": "",
     "description": "Randwick (near UNSW)",
     "link": "https://www.ritzcinema.com.au",
@@ -2784,7 +2784,7 @@
   {
     "retailer": "Sydney Contemporary",
     "category": "Arts",
-    "university": "all",
+    "university": "usyd",
     "universityLabel": "",
     "description": "Carriageworks (near USYD)",
     "link": "https://sydneycontemporary.com.au",
@@ -2797,7 +2797,7 @@
   {
     "retailer": "Carriageworks",
     "category": "Arts",
-    "university": "all",
+    "university": "usyd",
     "universityLabel": "",
     "description": "Eveleigh (near USYD)",
     "link": "https://carriageworks.com.au",
@@ -2810,7 +2810,7 @@
   {
     "retailer": "White Rabbit Gallery",
     "category": "Arts",
-    "university": "all",
+    "university": "uts",
     "universityLabel": "",
     "description": "Chippendale (near UTS)",
     "link": "https://www.whiterabbitcollection.org",
@@ -2836,7 +2836,7 @@
   {
     "retailer": "Young Henrys Brewery",
     "category": "Food/Entertainment",
-    "university": "all",
+    "university": "usyd",
     "universityLabel": "",
     "description": "Newtown (near USYD)",
     "link": "https://younghenrys.com",

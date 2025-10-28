@@ -1,0 +1,6 @@
+.vercel
+
+# local backups and temp CSVs
+deals.json.bak.*
+tools/tmp/
+*.csv
