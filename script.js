@@ -81,3 +81,39 @@ const submitDeal = document.getElementById('submit-deal');
 submitDeal && submitDeal.addEventListener('submit', ()=>{
   setTimeout(()=>alert('Thanks for the submission! We will review and add verified deals.'), 200);
 });
+
+// Places search (calls serverless /api/search if present)
+const placesQuery = document.getElementById('places-query');
+const placesSearchBtn = document.getElementById('places-search');
+const placesResults = document.getElementById('places-results');
+
+async function searchPlaces(query){
+  if(!query) return;
+  try{
+    placesSearchBtn.disabled = true;
+    placesResults.innerHTML = '<p class="muted">Searching...</p>';
+    const res = await fetch('/api/search?query=' + encodeURIComponent(query));
+    if(!res.ok) throw new Error('Search failed');
+    const data = await res.json();
+    if(!Array.isArray(data.results) || data.results.length === 0){
+      placesResults.innerHTML = '<p class="muted">No places found.</p>';
+      return;
+    }
+    placesResults.innerHTML = data.results.map(p => `
+      <article class="card">
+        <h3>${escapeHtml(p.name)}</h3>
+        <div class="meta"><span class="small">${escapeHtml(p.address || '')}</span></div>
+        ${p.rating? `<p class="small">Rating: ${p.rating}</p>` : ''}
+        ${p.place_id? `<p><a href="https://www.google.com/maps/place/?q=place_id:${p.place_id}" target="_blank" rel="noopener">Open in Google Maps</a></p>` : ''}
+      </article>
+    `).join('');
+  }catch(e){
+    console.error(e);
+    placesResults.innerHTML = '<p class="muted">Search failed — ensure PLACES_API_KEY is configured on the deployment.</p>';
+  }finally{placesSearchBtn.disabled = false}
+}
+
+placesSearchBtn && placesSearchBtn.addEventListener('click', ()=>{
+  const q = (placesQuery && placesQuery.value) || '';
+  searchPlaces(q.trim());
+});

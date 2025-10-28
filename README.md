@@ -57,3 +57,34 @@ Notes
 - Keep `deals.json` up to date; later we can move to Airtable + serverless proxy to allow non-developer edits.
 
 If you'd like, I can connect this repo to Vercel and deploy it now — tell me whether to create a GitHub repo for you (I will prepare files for you to push) or whether you want me to walk you through pushing from your machine.
+
+---
+
+Additional features added in this workspace
+
+- Expanded `deals.json` with ~40 sample Sydney-focused deals to give better coverage for testing and outreach.
+
+- Experimental Places search (optional)
+
+  - A serverless endpoint was added at `api/search.js` that proxies the Google Places Text Search API. To enable it on Vercel:
+    1. Obtain a Google Maps/Places API key with Places Text Search enabled (note: Google requires billing on the project and may bill requests).
+    2. In your Vercel project settings, add an Environment Variable named `PLACES_API_KEY` with that key.
+    3. Deploy. The front-end "Find nearby businesses & programs" UI will call `/api/search?query=YOUR+QUERY` and display basic results.
+
+  - Caution: Google Cloud may charge for usage. Use the feature sparingly during testing.
+
+- Analytics (GA4)
+
+  - A GA4 placeholder snippet is included in `index.html`. Replace `G-XXXXXXX` with your Measurement ID to enable tracking. If you prefer, provide the Measurement ID and I'll patch it for you.
+
+- Email signup
+
+  - The site currently contains placeholder form endpoints. When you're ready to collect emails I can patch the site with a MailerLite/ConvertKit embed or a Formspree action — paste the embed snippet or the Formspree action URL and I'll update the site and create a commit.
+
+What I can do next (pick any)
+
+- Wire a MailerLite embed (paste the embed HTML) or a Formspree action URL and I'll update `index.html` and push the change.
+- Add GA4 Measurement ID for you if you paste it here.
+- Expand `deals.json` further or migrate the list to Airtable and wire a serverless proxy so non-dev edits are possible.
+
+If you want me to make one of the changes now, paste the required secret/embed (Formspree action or MailerLite embed, or GA4 Measurement ID) and I'll edit the files and show the commit + push commands.

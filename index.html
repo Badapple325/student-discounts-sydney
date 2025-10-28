@@ -6,6 +6,23 @@
   <title>Sydney Student Discounts — Verified deals for Uni of Sydney, UNSW & UTS</title>
   <link rel="stylesheet" href="style.css">
   <meta name="description" content="Save on food, tech, transport & more — student discounts around Sydney universities. Join the weekly list.">
+  <!-- Optional: add your GA4 measurement ID in the script below (G-XXXXXXX) -->
+  <script>
+    /* GA4 placeholder - replace 'G-XXXXXXX' with your Measurement ID to enable analytics */
+    (function(){
+      var GA_MEASUREMENT_ID = 'G-XXXXXXX';
+      if(GA_MEASUREMENT_ID && GA_MEASUREMENT_ID !== 'G-XXXXXXX'){
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);} 
+        gtag('js', new Date());
+        gtag('config', GA_MEASUREMENT_ID);
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_MEASUREMENT_ID;
+        document.head.appendChild(s);
+      }
+    })();
+  </script>
 </head>
 <body>
   <header class="hero">
@@ -51,6 +68,16 @@
         <option value="fashion">Fashion</option>
         <option value="services">Services</option>
       </select>
+    </section>
+
+    <section class="places-search">
+      <h3>Find nearby businesses & programs (experimental)</h3>
+      <p class="small">Search the wider Sydney area using a places API. Requires a configured PLACES_API_KEY in Vercel environment variables.</p>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px;">
+        <input id="places-query" placeholder="e.g. student cafe near 'University of Sydney' or 'cheap gym'" style="flex:1;min-width:220px" />
+        <button id="places-search">Search places</button>
+      </div>
+      <div id="places-results" class="deals-grid"></div>
     </section>
 
     <section id="deals" class="deals-grid">
