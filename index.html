@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sydney Student Discounts — Verified deals for Uni of Sydney, UNSW & UTS</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Save on food, tech, transport & more — student discounts around Sydney universities. Join the weekly list.">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Sydney Student Discounts</h1>
+      <p class="lead">Verified student deals near Uni of Sydney, UNSW & UTS. Food, tech, fitness, and more — weekly updates.</p>
+      <div class="cta">
+        <!-- Replace action with your Formspree endpoint or paste MailerLite/ConvertKit embed code -->
+        <form id="signup-form" action="https://formspree.io/f/your-id" method="POST">
+          <input type="email" name="email" id="email" placeholder="Enter your student email" required>
+          <select name="university" id="university">
+            <option value="all">All universities</option>
+            <option value="usyd">University of Sydney</option>
+            <option value="unsw">UNSW</option>
+            <option value="uts">UTS</option>
+            <option value="macquarie">Macquarie</option>
+            <option value="western">Western Sydney</option>
+          </select>
+          <button type="submit">Join the free weekly list</button>
+        </form>
+        <p class="note">No spam. You can unsubscribe anytime.</p>
+      </div>
+      <p class="small">Want to submit a deal or sponsor a listing? <a href="#submit">Submit a deal</a></p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="filters">
+      <input id="search" placeholder="Search deals or retailers (e.g., coffee, tech)" />
+      <select id="filter-uni">
+        <option value="all">All unis</option>
+        <option value="usyd">University of Sydney</option>
+        <option value="unsw">UNSW</option>
+        <option value="uts">UTS</option>
+        <option value="macquarie">Macquarie</option>
+        <option value="western">Western Sydney</option>
+      </select>
+      <select id="filter-cat">
+        <option value="all">All categories</option>
+        <option value="food">Food & Coffee</option>
+        <option value="tech">Tech & Software</option>
+        <option value="fitness">Fitness</option>
+        <option value="fashion">Fashion</option>
+        <option value="services">Services</option>
+      </select>
+    </section>
+
+    <section id="deals" class="deals-grid">
+      <!-- Deals rendered here by script.js -->
+    </section>
+
+    <section id="submit" class="submit">
+      <h2>Submit a deal</h2>
+      <p>If you know a student offer we haven't listed, use the form below to send it to us.</p>
+      <form id="submit-deal" action="https://formspree.io/f/your-id" method="POST">
+        <input type="text" name="retailer" placeholder="Retailer name" required>
+        <input type="text" name="deal" placeholder="Short deal description (e.g., 10% off coffee)" required>
+        <input type="url" name="link" placeholder="Link to terms or page (optional)">
+        <select name="university">
+          <option value="all">All Sydney unis</option>
+          <option value="usyd">University of Sydney</option>
+          <option value="unsw">UNSW</option>
+          <option value="uts">UTS</option>
+          <option value="macquarie">Macquarie</option>
+          <option value="western">Western Sydney</option>
+        </select>
+        <button type="submit">Send deal</button>
+      </form>
+    </section>
+
+    <section class="howitworks">
+      <h2>How this works</h2>
+      <ol>
+        <li>We manually verify deals and link to the official terms where possible.</li>
+        <li>Deals with verification steps will show how to claim (student email, show ID, etc.).</li>
+        <li>Businesses can sponsor featured placements — contact us via the submit form.</li>
+      </ol>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Built for Sydney students. <small>Use offers responsibly. We list deals for convenience and verify where possible.</small></p>
+      <p class="muted">This is an independent site, not affiliated with any university.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

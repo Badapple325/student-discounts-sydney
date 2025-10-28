@@ -1,0 +1,25 @@
+:root{--accent:#0066cc;--muted:#666}
+body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;color:#111}
+.container{max-width:980px;margin:0 auto;padding:24px}
+.hero{background:linear-gradient(180deg,#f7fbff,#fff);padding:40px 0;border-bottom:1px solid #eee}
+.hero h1{margin:0;font-size:28px}
+.lead{color:var(--muted);margin-top:8px}
+.cta{margin-top:16px}
+input,select,button,textarea{font-size:16px;padding:10px;border:1px solid #ddd;border-radius:6px}
+#signup-form{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+#signup-form input[type="email"]{flex:1;min-width:220px}
+#signup-form button{background:var(--accent);color:#fff;border:none;padding:10px 16px;border-radius:6px}
+.note{color:var(--muted);font-size:13px;margin-top:8px}
+.filters{display:flex;gap:8px;align-items:center;margin:20px 0}
+.filters input{flex:1}
+.deals-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.card{border:1px solid #eee;padding:12px;border-radius:8px;background:#fff}
+.card h3{margin:0 0 6px 0;font-size:16px}
+.meta{font-size:13px;color:var(--muted);margin-bottom:8px}
+.badge{display:inline-block;background:#f1f7ff;color:var(--accent);padding:4px 8px;border-radius:999px;font-size:12px;margin-right:6px}
+.submit{margin-top:28px;padding:18px;border-top:1px solid #f0f0f0}
+.howitworks{margin-top:28px}
+footer{border-top:1px solid #eee;padding:14px;background:#fafafa;margin-top:28px}
+.small{font-size:14px;color:var(--muted)}
+.muted{color:var(--muted);font-size:13px}
+@media(max-width:600px){.filters{flex-direction:column;align-items:stretch}}
