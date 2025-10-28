@@ -2546,5 +2546,70 @@
     "id": "chemist-warehouse-1",
     "title": "Chemist Warehouse",
     "placeholder": false
+  },
+  {
+    "retailer": "Oasis Café",
+    "category": "Food",
+    "university": "mq",
+    "universityLabel": "",
+    "description": "",
+    "link": "https://oasis-cafe.com",
+    "how": "",
+    "code": "",
+    "id": "oasis-caf-1",
+    "title": "Oasis Café",
+    "placeholder": false
+  },
+  {
+    "retailer": "The Coffee Cart",
+    "category": "Food",
+    "university": "uts",
+    "universityLabel": "",
+    "description": "",
+    "link": "https://www.facebook.com/the-coffee-cart",
+    "how": "",
+    "code": "",
+    "id": "the-coffee-cart-1",
+    "title": "The Coffee Cart",
+    "placeholder": false
+  },
+  {
+    "retailer": "Lantana Café",
+    "category": "Food",
+    "university": "unsw",
+    "universityLabel": "",
+    "description": "",
+    "link": "https://www.facebook.com/lantana-cafe",
+    "how": "",
+    "code": "",
+    "id": "lantana-caf-1",
+    "title": "Lantana Café",
+    "placeholder": false
+  },
+  {
+    "retailer": "Newtown Hotel",
+    "category": "Food/Entertainment",
+    "university": "usyd",
+    "universityLabel": "",
+    "description": "",
+    "link": "https://newtownhotel.com.au",
+    "how": "",
+    "code": "",
+    "id": "newtown-hotel-1",
+    "title": "Newtown Hotel",
+    "placeholder": false
+  },
+  {
+    "retailer": "Gong Cha",
+    "category": "Food",
+    "university": "unsw",
+    "universityLabel": "",
+    "description": "",
+    "link": "https://gong-cha.com",
+    "how": "",
+    "code": "",
+    "id": "gong-cha-1",
+    "title": "Gong Cha",
+    "placeholder": false
   }
 ]
