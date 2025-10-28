@@ -8,7 +8,9 @@
     "link": "https://example.com/local-campus-cafe",
     "how": "Show student ID at counter",
     "code": "",
-    "id": "local-campus-cafe"
+    "id": "local-campus-cafe-1",
+    "title": "Local Campus Cafe",
+    "placeholder": true
   },
   {
     "retailer": "Inner West Coffee",
@@ -19,7 +21,9 @@
     "link": "https://example.com/innerwest-coffee",
     "how": "Show student concession card",
     "code": "",
-    "id": "inner-west-coffee"
+    "id": "inner-west-coffee-1",
+    "title": "Inner West Coffee",
+    "placeholder": true
   },
   {
     "retailer": "Campus Gym Discount",
@@ -30,7 +34,9 @@
     "link": "https://example.com/campus-gym",
     "how": "Sign up at gym desk with student email",
     "code": "",
-    "id": "campus-gym-discount"
+    "id": "campus-gym-discount-1",
+    "title": "Campus Gym Discount",
+    "placeholder": true
   },
   {
     "retailer": "Books & More",
@@ -41,7 +47,9 @@
     "link": "https://example.com/books-more",
     "how": "Use your .edu.au email for online checkout",
     "code": "",
-    "id": "books-more"
+    "id": "books-more-1",
+    "title": "Books & More",
+    "placeholder": true
   },
   {
     "retailer": "StudentTech Store",
@@ -52,7 +60,9 @@
     "link": "https://example.com/studenttech",
     "how": "Verify with student email or upload student ID",
     "code": "TECH10",
-    "id": "studenttech-store"
+    "id": "studenttech-store-1",
+    "title": "StudentTech Store",
+    "placeholder": true
   },
   {
     "retailer": "Fitness Studio — Newtown",
@@ -63,7 +73,9 @@
     "link": "https://example.com/fitness-newtown",
     "how": "Show student ID on arrival",
     "code": "",
-    "id": "fitness-studio-newtown"
+    "id": "fitness-studio-newtown-1",
+    "title": "Fitness Studio — Newtown",
+    "placeholder": true
   },
   {
     "retailer": "Ramen House",
@@ -74,7 +86,9 @@
     "link": "https://example.com/ramen-house",
     "how": "Show student ID",
     "code": "",
-    "id": "ramen-house"
+    "id": "ramen-house-1",
+    "title": "Ramen House",
+    "placeholder": true
   },
   {
     "retailer": "Clothing Outlet",
@@ -85,7 +99,9 @@
     "link": "https://example.com/clothing-outlet",
     "how": "Show student ID at register",
     "code": "",
-    "id": "clothing-outlet"
+    "id": "clothing-outlet-1",
+    "title": "Clothing Outlet",
+    "placeholder": true
   },
   {
     "retailer": "Local Taxi App",
@@ -96,7 +112,9 @@
     "link": "https://example.com/taxi-app",
     "how": "Verify student email in app",
     "code": "",
-    "id": "local-taxi-app"
+    "id": "local-taxi-app-1",
+    "title": "Local Taxi App",
+    "placeholder": true
   },
   {
     "retailer": "Cinema Night",
@@ -107,7 +125,9 @@
     "link": "https://example.com/cinema-night",
     "how": "Buy online with student promo code",
     "code": "",
-    "id": "cinema-night"
+    "id": "cinema-night-1",
+    "title": "Cinema Night",
+    "placeholder": true
   },
   {
     "retailer": "Language Course Discount",
@@ -118,7 +138,9 @@
     "link": "https://example.com/lang-course",
     "how": "Register with student email",
     "code": "",
-    "id": "language-course-discount"
+    "id": "language-course-discount-1",
+    "title": "Language Course Discount",
+    "placeholder": true
   },
   {
     "retailer": "Co-working Day Pass",
@@ -129,7 +151,9 @@
     "link": "https://example.com/cowork",
     "how": "Show student ID at check-in",
     "code": "",
-    "id": "co-working-day-pass"
+    "id": "co-working-day-pass-1",
+    "title": "Co-working Day Pass",
+    "placeholder": true
   },
   {
     "retailer": "Bike Shop",
@@ -140,7 +164,9 @@
     "link": "https://example.com/bike-shop",
     "how": "Mention student discount in shop",
     "code": "",
-    "id": "bike-shop"
+    "id": "bike-shop-1",
+    "title": "Bike Shop",
+    "placeholder": true
   },
   {
     "retailer": "Photo Prints",
@@ -151,7 +177,9 @@
     "link": "https://example.com/photo-prints",
     "how": "Use student email at checkout",
     "code": "",
-    "id": "photo-prints"
+    "id": "photo-prints-1",
+    "title": "Photo Prints",
+    "placeholder": true
   },
   {
     "retailer": "Coffee Chain X",
@@ -162,7 +190,9 @@
     "link": "https://example.com/coffee-chain",
     "how": "Register with student email",
     "code": "",
-    "id": "coffee-chain-x"
+    "id": "coffee-chain-x-1",
+    "title": "Coffee Chain X",
+    "placeholder": true
   },
   {
     "retailer": "Study Software — Pro",
@@ -173,7 +203,9 @@
     "link": "https://example.com/study-software",
     "how": "Apply student discount code at checkout",
     "code": "STUDY50",
-    "id": "study-software-pro"
+    "id": "study-software-pro-1",
+    "title": "Study Software — Pro",
+    "placeholder": true
   },
   {
     "retailer": "Bike Share Promo",
@@ -184,7 +216,9 @@
     "link": "https://example.com/bikeshare",
     "how": "Enter university email to claim",
     "code": "",
-    "id": "bike-share-promo"
+    "id": "bike-share-promo-1",
+    "title": "Bike Share Promo",
+    "placeholder": true
   },
   {
     "retailer": "Local Pizzeria",
@@ -195,7 +229,9 @@
     "link": "https://example.com/pizzeria",
     "how": "Order in-store and show ID",
     "code": "",
-    "id": "local-pizzeria"
+    "id": "local-pizzeria-1",
+    "title": "Local Pizzeria",
+    "placeholder": true
   },
   {
     "retailer": "Tech Repair — Student Rate",
@@ -206,7 +242,9 @@
     "link": "https://example.com/tech-repair",
     "how": "Show student ID at drop-off",
     "code": "",
-    "id": "tech-repair-student-rate"
+    "id": "tech-repair-student-rate-1",
+    "title": "Tech Repair — Student Rate",
+    "placeholder": true
   },
   {
     "retailer": "Campus Barber",
@@ -217,7 +255,9 @@
     "link": "https://example.com/campus-barber",
     "how": "Show student ID",
     "code": "",
-    "id": "campus-barber"
+    "id": "campus-barber-1",
+    "title": "Campus Barber",
+    "placeholder": true
   },
   {
     "retailer": "Study Cafe — Glebe",
@@ -228,7 +268,9 @@
     "link": "https://example.com/study-cafe",
     "how": "Show student ID",
     "code": "",
-    "id": "study-cafe-glebe"
+    "id": "study-cafe-glebe-1",
+    "title": "Study Cafe — Glebe",
+    "placeholder": true
   },
   {
     "retailer": "Stationery Express",
@@ -239,7 +281,9 @@
     "link": "https://example.com/stationery-express",
     "how": "Enter student email at checkout",
     "code": "",
-    "id": "stationery-express"
+    "id": "stationery-express-1",
+    "title": "Stationery Express",
+    "placeholder": true
   },
   {
     "retailer": "Coding Bootcamp Discount",
@@ -250,7 +294,9 @@
     "link": "https://example.com/coding-bootcamp",
     "how": "Apply student code at signup",
     "code": "",
-    "id": "coding-bootcamp-discount"
+    "id": "coding-bootcamp-discount-1",
+    "title": "Coding Bootcamp Discount",
+    "placeholder": true
   },
   {
     "retailer": "Vintage Clothing Lane",
@@ -261,7 +307,9 @@
     "link": "https://example.com/vintage-lane",
     "how": "Show student ID",
     "code": "",
-    "id": "vintage-clothing-lane"
+    "id": "vintage-clothing-lane-1",
+    "title": "Vintage Clothing Lane",
+    "placeholder": true
   },
   {
     "retailer": "Photo Studio Student Rate",
@@ -272,7 +320,9 @@
     "link": "https://example.com/photo-studio",
     "how": "Book online and mention student discount",
     "code": "",
-    "id": "photo-studio-student-rate"
+    "id": "photo-studio-student-rate-1",
+    "title": "Photo Studio Student Rate",
+    "placeholder": true
   },
   {
     "retailer": "Boba Spot",
@@ -283,7 +333,9 @@
     "link": "https://example.com/boba-spot",
     "how": "Show student ID",
     "code": "",
-    "id": "boba-spot"
+    "id": "boba-spot-1",
+    "title": "Boba Spot",
+    "placeholder": true
   },
   {
     "retailer": "Laptop Accessories Store",
@@ -294,7 +346,9 @@
     "link": "https://example.com/laptop-accessories",
     "how": "Verify with student email",
     "code": "",
-    "id": "laptop-accessories-store"
+    "id": "laptop-accessories-store-1",
+    "title": "Laptop Accessories Store",
+    "placeholder": true
   },
   {
     "retailer": "Yoga Studio — Student Mat Class",
@@ -305,7 +359,9 @@
     "link": "https://example.com/yoga-studio",
     "how": "Show student ID",
     "code": "",
-    "id": "yoga-studio-student-mat-class"
+    "id": "yoga-studio-student-mat-class-1",
+    "title": "Yoga Studio — Student Mat Class",
+    "placeholder": true
   },
   {
     "retailer": "Public Transport Card Top-up Offer",
@@ -316,7 +372,9 @@
     "link": "https://example.com/transport-offer",
     "how": "Register with student email",
     "code": "",
-    "id": "public-transport-card-top-up-offer"
+    "id": "public-transport-card-top-up-offer-1",
+    "title": "Public Transport Card Top-up Offer",
+    "placeholder": true
   },
   {
     "retailer": "Cheap Textbook Resale",
@@ -327,7 +385,9 @@
     "link": "https://example.com/textbook-resale",
     "how": "Sign up with student email",
     "code": "",
-    "id": "cheap-textbook-resale"
+    "id": "cheap-textbook-resale-1",
+    "title": "Cheap Textbook Resale",
+    "placeholder": true
   },
   {
     "retailer": "Student Meal Box",
@@ -338,7 +398,9 @@
     "link": "https://example.com/meal-box",
     "how": "Subscribe with student email",
     "code": "MEAL30",
-    "id": "student-meal-box"
+    "id": "student-meal-box-1",
+    "title": "Student Meal Box",
+    "placeholder": true
   },
   {
     "retailer": "Busker's Music Shop",
@@ -349,7 +411,9 @@
     "link": "https://example.com/music-shop",
     "how": "Show student ID",
     "code": "",
-    "id": "busker-s-music-shop"
+    "id": "busker-s-music-shop-1",
+    "title": "Busker's Music Shop",
+    "placeholder": true
   },
   {
     "retailer": "Campus Safe Ride Program",
@@ -360,7 +424,9 @@
     "link": "https://example.com/safe-ride",
     "how": "Verify student email in app",
     "code": "",
-    "id": "campus-safe-ride-program"
+    "id": "campus-safe-ride-program-1",
+    "title": "Campus Safe Ride Program",
+    "placeholder": true
   },
   {
     "retailer": "UOW Campus Cafe",
@@ -371,7 +437,9 @@
     "link": "https://example.com/uow-cafe",
     "how": "Show student ID at counter",
     "code": "",
-    "id": "uow-campus-cafe"
+    "id": "uow-campus-cafe-1",
+    "title": "UOW Campus Cafe",
+    "placeholder": true
   },
   {
     "retailer": "Wollongong Gym Student Rate",
@@ -382,7 +450,9 @@
     "link": "https://example.com/wollongong-gym",
     "how": "Sign up with student email or show ID",
     "code": "",
-    "id": "wollongong-gym-student-rate"
+    "id": "wollongong-gym-student-rate-1",
+    "title": "Wollongong Gym Student Rate",
+    "placeholder": true
   },
   {
     "retailer": "UOW Bookshop Discount",
@@ -393,7 +463,9 @@
     "link": "https://example.com/uow-bookshop",
     "how": "Present student ID at checkout",
     "code": "",
-    "id": "uow-bookshop-discount"
+    "id": "uow-bookshop-discount-1",
+    "title": "UOW Bookshop Discount",
+    "placeholder": true
   },
   {
     "retailer": "Wollongong Cinema Students",
@@ -404,7 +476,9 @@
     "link": "https://example.com/wollongong-cinema",
     "how": "Use student promo code online or show ID",
     "code": "",
-    "id": "wollongong-cinema-students"
+    "id": "wollongong-cinema-students-1",
+    "title": "Wollongong Cinema Students",
+    "placeholder": true
   },
   {
     "retailer": "UOW Bus Discount",
@@ -415,7 +489,9 @@
     "link": "https://example.com/uow-bus",
     "how": "Register with student email",
     "code": "",
-    "id": "uow-bus-discount"
+    "id": "uow-bus-discount-1",
+    "title": "UOW Bus Discount",
+    "placeholder": true
   },
   {
     "retailer": "Wollongong Bike Repair",
@@ -426,7 +502,9 @@
     "link": "https://example.com/wollongong-bike",
     "how": "Show student ID",
     "code": "",
-    "id": "wollongong-bike-repair"
+    "id": "wollongong-bike-repair-1",
+    "title": "Wollongong Bike Repair",
+    "placeholder": true
   },
   {
     "retailer": "UOW Language Workshops",
@@ -437,7 +515,9 @@
     "link": "https://example.com/uow-language",
     "how": "Sign up with student email",
     "code": "",
-    "id": "uow-language-workshops"
+    "id": "uow-language-workshops-1",
+    "title": "UOW Language Workshops",
+    "placeholder": true
   },
   {
     "retailer": "Furniture Hire — Student Pack",
@@ -448,7 +528,9 @@
     "link": "https://example.com/furniture-hire",
     "how": "Verify with student email",
     "code": "",
-    "id": "furniture-hire-student-pack"
+    "id": "furniture-hire-student-pack-1",
+    "title": "Furniture Hire — Student Pack",
+    "placeholder": true
   },
   {
     "retailer": "Student Storage Promo",
@@ -459,7 +541,9 @@
     "link": "https://example.com/student-storage",
     "how": "Book online and use student code",
     "code": "",
-    "id": "student-storage-promo"
+    "id": "student-storage-promo-1",
+    "title": "Student Storage Promo",
+    "placeholder": true
   },
   {
     "retailer": "Online Tutoring Discount",
@@ -470,7 +554,9 @@
     "link": "https://example.com/tutoring",
     "how": "Verify student email",
     "code": "",
-    "id": "online-tutoring-discount"
+    "id": "online-tutoring-discount-1",
+    "title": "Online Tutoring Discount",
+    "placeholder": true
   },
   {
     "retailer": "Student Phone Plan — Discount",
@@ -481,7 +567,9 @@
     "link": "https://example.com/phone-plan",
     "how": "Verify with student ID or email",
     "code": "",
-    "id": "student-phone-plan-discount"
+    "id": "student-phone-plan-discount-1",
+    "title": "Student Phone Plan — Discount",
+    "placeholder": true
   },
   {
     "retailer": "Art Supplies Student Discount",
@@ -492,7 +580,9 @@
     "link": "https://example.com/art-supplies",
     "how": "Show student ID",
     "code": "",
-    "id": "art-supplies-student-discount"
+    "id": "art-supplies-student-discount-1",
+    "title": "Art Supplies Student Discount",
+    "placeholder": true
   },
   {
     "retailer": "Student Co-living Discount",
@@ -503,7 +593,9 @@
     "link": "https://example.com/coliving",
     "how": "Apply with student email",
     "code": "",
-    "id": "student-co-living-discount"
+    "id": "student-co-living-discount-1",
+    "title": "Student Co-living Discount",
+    "placeholder": true
   },
   {
     "retailer": "Music Lessons — Student Rate",
@@ -514,7 +606,9 @@
     "link": "https://example.com/music-lessons",
     "how": "Book with student email",
     "code": "",
-    "id": "music-lessons-student-rate"
+    "id": "music-lessons-student-rate-1",
+    "title": "Music Lessons — Student Rate",
+    "placeholder": true
   },
   {
     "retailer": "Discounted 3D Printing",
@@ -525,7 +619,9 @@
     "link": "https://example.com/3d-printing",
     "how": "Upload student ID when ordering",
     "code": "",
-    "id": "discounted-3d-printing"
+    "id": "discounted-3d-printing-1",
+    "title": "Discounted 3D Printing",
+    "placeholder": true
   },
   {
     "retailer": "Student Gym — Wollongong Climb",
@@ -536,7 +632,9 @@
     "link": "https://example.com/wollongong-climb",
     "how": "Show student ID",
     "code": "",
-    "id": "student-gym-wollongong-climb"
+    "id": "student-gym-wollongong-climb-1",
+    "title": "Student Gym — Wollongong Climb",
+    "placeholder": true
   },
   {
     "retailer": "GitHub Student Developer Pack",
@@ -547,7 +645,9 @@
     "link": "https://education.github.com/pack",
     "how": "Verify using GitHub Education (student email or ID)",
     "code": "",
-    "id": "github-student-developer-pack"
+    "id": "github-student-developer-pack-1",
+    "title": "GitHub Student Developer Pack",
+    "placeholder": false
   },
   {
     "retailer": "Opal Concession & Student Info",
@@ -558,6 +658,8 @@
     "link": "https://transportnsw.info/tickets-opal/opal-card-concessions",
     "how": "Check eligibility on Transport NSW and follow their application instructions",
     "code": "",
-    "id": "opal-concession-student-info"
+    "id": "opal-concession-student-info-1",
+    "title": "Opal Concession & Student Info",
+    "placeholder": false
   }
 ]
