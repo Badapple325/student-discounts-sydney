@@ -2,7 +2,8 @@
 // Simple serverless endpoint to fetch deals from Airtable (read-only).
 // Protect with ADMIN_KEY if set. Returns Airtable rows as JSON.
 
-const fetch = require('node-fetch');
+// Use global fetch (Node 18+ / serverless runtime) if available
+const fetch = global.fetch || require('node-fetch');
 
 module.exports = async (req, res) => {
   if (req.method !== 'GET') return res.status(405).json({ ok:false, error:'method' });

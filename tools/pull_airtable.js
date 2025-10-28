@@ -6,7 +6,8 @@
 
 const fs = require('fs');
 const path = require('path');
-const fetch = require('node-fetch');
+// Use global fetch when available (Node 18+). Do not require node-fetch dependency.
+const fetch = global.fetch || (async () => { throw new Error('global fetch not available; please run in Node 18+ or install node-fetch'); })();
 
 const token = process.env.AIRTABLE_TOKEN || process.env.AIRTABLE_API_KEY;
 const base = process.env.AIRTABLE_BASE_ID;
