@@ -23,3 +23,16 @@ footer{border-top:1px solid #eee;padding:14px;background:#fafafa;margin-top:28px
 .small{font-size:14px;color:var(--muted)}
 .muted{color:var(--muted);font-size:13px}
 @media(max-width:600px){.filters{flex-direction:column;align-items:stretch}}
+
+/* Sticky CTA on small screens */
+@media(max-width:520px){
+	#signup-cta{position:fixed;left:12px;right:12px;bottom:12px;z-index:999;background:var(--accent);color:#fff;padding:12px;border-radius:8px;border:none}
+	#signup-form input[type="email"]{margin-bottom:56px}
+}
+
+/* Modal styles for claim UI */
+.modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,0.45);padding:20px}
+.modal.show{display:flex}
+.modal-content{background:#fff;padding:18px;border-radius:10px;max-width:520px;width:100%;box-shadow:0 8px 24px rgba(0,0,0,0.12)}
+.modal-close{position:absolute;right:18px;top:14px;background:none;border:none;font-size:20px;cursor:pointer}
+.modal .lead{font-size:16px;margin-top:0}
