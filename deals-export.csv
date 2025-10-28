@@ -1,0 +1,52 @@
+Discount Name,Retailer,Link,Code,Description,How,Category,Location,University,Published,Placeholder
+,Local Campus Cafe,https://example.com/local-campus-cafe,,10% off all hot drinks when you show your student ID.,Show student ID at counter,food,,usyd,FALSE,FALSE
+,Inner West Coffee,https://example.com/innerwest-coffee,,Buy one get one free on small coffees Mon-Fri 3–5pm for students.,Show student concession card,food,,uts,FALSE,FALSE
+,Campus Gym Discount,https://example.com/campus-gym,,Student annual membership 25% off at selected campus gyms.,Sign up at gym desk with student email,fitness,,unsw,FALSE,FALSE
+,Books & More,https://example.com/books-more,,15% off stationery and selected textbooks for students.,Use your .edu.au email for online checkout,services,,all,FALSE,FALSE
+,StudentTech Store,https://example.com/studenttech,TECH10,Exclusive 10% education discount on laptops and peripherals for students.,Verify with student email or upload student ID,tech,,all,FALSE,FALSE
+,Fitness Studio — Newtown,https://example.com/fitness-newtown,,Special student drop-in rate $10 on weekdays.,Show student ID on arrival,fitness,,usyd,FALSE,FALSE
+,Ramen House,https://example.com/ramen-house,,Free extra topping with student meal (show ID).,Show student ID,food,,unsw,FALSE,FALSE
+,Clothing Outlet,https://example.com/clothing-outlet,,Students: 20% off in-store every Wednesday.,Show student ID at register,fashion,,all,FALSE,FALSE
+,Local Taxi App,https://example.com/taxi-app,,$5 off first 3 rides for students who verify with email.,Verify student email in app,transport,,all,FALSE,FALSE
+,Cinema Night,https://example.com/cinema-night,,Student Tuesdays: $12 tickets at participating cinemas.,Buy online with student promo code,entertainment,,uts,FALSE,FALSE
+,Language Course Discount,https://example.com/lang-course,,50% off select short courses for enrolled students.,Register with student email,study,,macquarie,FALSE,FALSE
+,Co-working Day Pass,https://example.com/cowork,,$8 day pass for students at partner coworking spaces.,Show student ID at check-in,services,,all,FALSE,FALSE
+,Bike Shop,https://example.com/bike-shop,,10% off repairs and accessories for students.,Mention student discount in shop,services,,western,FALSE,FALSE
+,Photo Prints,https://example.com/photo-prints,,25% off photo printing for student projects.,Use student email at checkout,services,,all,FALSE,FALSE
+,Coffee Chain X,https://example.com/coffee-chain,,Free medium drink after 10 purchases for loyalty card holders (student rate available).,Register with student email,food,,all,FALSE,FALSE
+,Study Software — Pro,https://example.com/study-software,STUDY50,50% discount for students on yearly subscriptions for study software.,Apply student discount code at checkout,software,,all,FALSE,FALSE
+,Bike Share Promo,https://example.com/bikeshare,,Discounted monthly pass for students living near campus.,Enter university email to claim,transport,,usyd,FALSE,FALSE
+,Local Pizzeria,https://example.com/pizzeria,,Student pizza deal: medium pizza + drink $10 when showing ID.,Order in-store and show ID,food,,unsw,FALSE,FALSE
+,Tech Repair — Student Rate,https://example.com/tech-repair,,$20 off laptop repairs for students.,Show student ID at drop-off,tech,,uts,FALSE,FALSE
+,Campus Barber,https://example.com/campus-barber,,$8 student haircuts on weekdays.,Show student ID,services,,usyd,FALSE,FALSE
+,Study Cafe — Glebe,https://example.com/study-cafe,,Free pastry with any large coffee for students.,Show student ID,food,,usyd,FALSE,FALSE
+,Stationery Express,https://example.com/stationery-express,,10% off all stationery and printing for students.,Enter student email at checkout,services,,all,FALSE,FALSE
+,Coding Bootcamp Discount,https://example.com/coding-bootcamp,,20% off selected short bootcamps for students.,Apply student code at signup,study,,all,FALSE,FALSE
+,Vintage Clothing Lane,https://example.com/vintage-lane,,Students get an extra 15% off sale items.,Show student ID,fashion,,uts,FALSE,FALSE
+,Photo Studio Student Rate,https://example.com/photo-studio,,25% off portrait sessions for student portfolios.,Book online and mention student discount,services,,all,FALSE,FALSE
+,Boba Spot,https://example.com/boba-spot,,$1 off on Tuesdays for students.,Show student ID,food,,unsw,FALSE,FALSE
+,Laptop Accessories Store,https://example.com/laptop-accessories,,15% off cases and chargers for students.,Verify with student email,tech,,all,FALSE,FALSE
+,Yoga Studio — Student Mat Class,https://example.com/yoga-studio,,$10 student rate for mat classes on weekdays.,Show student ID,fitness,,macquarie,FALSE,FALSE
+,Public Transport Card Top-up Offer,https://example.com/transport-offer,,$5 bonus credit on first top-up using student email sign-up.,Register with student email,transport,,all,FALSE,FALSE
+,Cheap Textbook Resale,https://example.com/textbook-resale,,Students can list textbooks for free and get 0% seller fees.,Sign up with student email,services,,all,FALSE,FALSE
+,Student Meal Box,https://example.com/meal-box,MEAL30,Weekly student meal box subscription at 30% off first month.,Subscribe with student email,food,,uts,FALSE,FALSE
+,Busker's Music Shop,https://example.com/music-shop,,10% off instrument rentals for students.,Show student ID,services,,western,FALSE,FALSE
+,Campus Safe Ride Program,https://example.com/safe-ride,,Discounted late-night rides for students in partnered zones.,Verify student email in app,transport,,usyd,FALSE,FALSE
+,UOW Campus Cafe,https://example.com/uow-cafe,,15% off hot drinks and sandwiches for UOW students when showing ID.,Show student ID at counter,food,,uow,FALSE,FALSE
+,Wollongong Gym Student Rate,https://example.com/wollongong-gym,,$15/week student gym passes at partner Wollongong gyms.,Sign up with student email or show ID,fitness,,uow,FALSE,FALSE
+,UOW Bookshop Discount,https://example.com/uow-bookshop,,10% off course texts and stationery for enrolled UOW students.,Present student ID at checkout,services,,uow,FALSE,FALSE
+,Wollongong Cinema Students,https://example.com/wollongong-cinema,,$10 student tickets on Wednesdays at selected Wollongong cinemas.,Use student promo code online or show ID,entertainment,,uow,FALSE,FALSE
+,UOW Bus Discount,https://example.com/uow-bus,,Discounted semester bus pass for UOW students living in greater Wollongong.,Register with student email,transport,,uow,FALSE,FALSE
+,Wollongong Bike Repair,https://example.com/wollongong-bike,,12% off bike repairs and tune-ups for students.,Show student ID,services,,uow,FALSE,FALSE
+,UOW Language Workshops,https://example.com/uow-language,,50% off selected language workshops for enrolled students.,Sign up with student email,study,,uow,FALSE,FALSE
+,Furniture Hire — Student Pack,https://example.com/furniture-hire,,Discounted short-term furniture hire for students moving into share houses.,Verify with student email,housing,,all,FALSE,FALSE
+,Student Storage Promo,https://example.com/student-storage,,First month free on student storage units near campuses.,Book online and use student code,housing,,all,FALSE,FALSE
+,Online Tutoring Discount,https://example.com/tutoring,,Get 20% off online tutoring for university subjects with student verification.,Verify student email,study,,all,FALSE,FALSE
+,Student Phone Plan — Discount,https://example.com/phone-plan,,$10/month student mobile plans for first 6 months with student ID verification.,Verify with student ID or email,services,,all,FALSE,FALSE
+,Art Supplies Student Discount,https://example.com/art-supplies,,15% off art supplies for students with student card.,Show student ID,services,,uts,FALSE,FALSE
+,Student Co-living Discount,https://example.com/coliving,,Reduced deposit for student co-living spaces near UNSW.,Apply with student email,housing,,unsw,FALSE,FALSE
+,Music Lessons — Student Rate,https://example.com/music-lessons,,Discounted private music lessons for students.,Book with student email,services,,all,FALSE,FALSE
+,Discounted 3D Printing,https://example.com/3d-printing,,Student 3D printing service at reduced rates for project work.,Upload student ID when ordering,services,,uts,FALSE,FALSE
+,Student Gym — Wollongong Climb,https://example.com/wollongong-climb,,Discounted student passes for climbing walls and classes.,Show student ID,fitness,,uow,FALSE,FALSE
+,GitHub Student Developer Pack,https://education.github.com/pack,,"Free and discounted developer tools for students including cloud credits, CI/CD, and more — verify with your student email to claim the pack.",Verify using GitHub Education (student email or ID),software,,all,FALSE,FALSE
+,Opal Concession & Student Info,https://transportnsw.info/tickets-opal/opal-card-concessions,,Information on Opal concession fares and student eligibility — check Transport NSW for current rules and how to apply for concession or student options.,Check eligibility on Transport NSW and follow their application instructions,transport,,all,FALSE,FALSE
