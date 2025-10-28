@@ -10,25 +10,56 @@ function slugify(s){
 }
 
 function parseSimpleCSV(text){
-  // Simple CSV parser: splits lines, supports quoted fields without embedded quotes
-  const lines = text.split(/\r?\n/).filter(l=>l.trim().length>0);
-  if(lines.length===0) return [];
-  const headers = lines[0].split(',').map(h=>h.trim().replace(/^"|"$/g, ''));
-  const out = [];
-  for(let i=1;i<lines.length;i++){
-    const raw = lines[i];
-    // rudimentary split that respects simple quoted fields
-    const fields = [];
-    let cur = '';
-    let inQuote = false;
-    for(let ch of raw){
-      if(ch === '"') { inQuote = !inQuote; continue; }
-      if(ch === ',' && !inQuote){ fields.push(cur); cur=''; continue; }
-      cur += ch;
+  // More robust CSV parser that supports quoted fields, escaped quotes ("") and newlines inside quotes.
+  // This is intentionally dependency-free and covers common CSV exports.
+  const rows = [];
+  let cur = '';
+  let inQuote = false;
+  let field = '';
+  const record = [];
+  for(let i=0;i<text.length;i++){
+    const ch = text[i];
+    const next = text[i+1];
+    if(ch === '"'){
+      if(inQuote && next === '"'){ // escaped quote
+        field += '"';
+        i++; // skip next
+        continue;
+      }
+      inQuote = !inQuote;
+      continue;
     }
-    fields.push(cur);
+    if(ch === ',' && !inQuote){
+      record.push(field);
+      field = '';
+      continue;
+    }
+    if((ch === '\n' || (ch === '\r' && next === '\n')) && !inQuote){
+      // end of record
+      if(ch === '\r' && next === '\n') i++; // skip LF after CR
+      record.push(field);
+      rows.push(record.slice());
+      record.length = 0;
+      field = '';
+      continue;
+    }
+    field += ch;
+  }
+  // push last
+  if(field.length>0 || record.length>0){ record.push(field); rows.push(record); }
+
+  if(rows.length === 0) return [];
+  // trim possible leading/trailing empty header cells and normalize headers
+  const headers = rows[0].map(h=>String(h||'').trim().replace(/^"|"$/g,''));
+  const out = [];
+  for(let r=1;r<rows.length;r++){
+    const rowArr = rows[r];
+    // skip empty rows
+    if(rowArr.every(c => String(c||'').trim().length===0)) continue;
     const row = {};
-    for(let j=0;j<headers.length;j++){ row[headers[j]] = (fields[j]||'').trim().replace(/^"|"$/g,''); }
+    for(let j=0;j<headers.length;j++){
+      row[headers[j]] = String((rowArr[j]||'')).trim().replace(/^"|"$/g,'');
+    }
     out.push(row);
   }
   return out;
@@ -45,20 +76,51 @@ async function main(){
   const raw = fs.readFileSync(csvPath,'utf8');
   const rows = parseSimpleCSV(raw);
   const out = [];
+  const warnings = [];
+  const seenIds = new Set((function getExistingIds(){
+    try{
+      const f = path.join(process.cwd(),'deals.json');
+      if(fs.existsSync(f)){
+        const j = JSON.parse(fs.readFileSync(f,'utf8')||'[]');
+        return j.map(x=>x.id).filter(Boolean);
+      }
+    }catch(e){}
+    return [];
+  })());
   for(const r of rows){
-    const retailer = r.retailer || r.Retailer || '';
-    if(!retailer) continue;
+    const retailer = r.title || r.Title || r.retailer || r.Retailer || '';
+    const title = r.title || r.Title || '';
+    const link = (r.link || r.Link || '').trim();
+    if(!retailer && !title){
+      // skip rows missing both primary identifiers but collect a warning
+      warnings.push({row: r, reason: 'missing retailer/title'});
+      continue;
+    }
     const item = {
-      retailer: retailer,
+      title: title || retailer,
+      retailer: retailer || title,
       category: r.category || r.Category || 'services',
       university: r.university || r.University || 'all',
       universityLabel: r.universityLabel || r.UniversityLabel || r.university_label || '',
       description: r.description || r.Description || '',
-      link: r.link || r.Link || '',
+      link: link || '',
       how: r.how || r.How || '',
       code: r.code || r.Code || ''
     };
-    item.id = r.id || slugify(item.retailer || item.link || Math.random().toString(36).slice(2,8));
+    // placeholder detection
+    item.placeholder = (!item.link || /example\.com/i.test(item.link));
+    // generate slug/id from title or retailer
+    let baseId = slugify(item.title || item.retailer || item.link || Math.random().toString(36).slice(2,8));
+    let uniqueId = baseId;
+    let suffix = 1;
+    while(seenIds.has(uniqueId)){
+      uniqueId = `${baseId}-${suffix++}`;
+    }
+    seenIds.add(uniqueId);
+    item.id = r.id || r.ID || uniqueId;
+    // basic URL validation
+    if(item.link && !/^https?:\/\//i.test(item.link)) warnings.push({row: r, reason: 'link missing protocol', link: item.link});
+    if(item.placeholder) warnings.push({row: r, reason: 'placeholder link or empty'});
     out.push(item);
   }
 
@@ -85,6 +147,13 @@ async function main(){
   }
   fs.writeFileSync(dealsFile, JSON.stringify(final, null, 2), 'utf8');
   console.log(`Imported ${out.length} rows -> added:${added} updated:${updated}`);
+  if(warnings.length){
+    console.warn('\nWarnings during import:');
+    warnings.slice(0,20).forEach((w,i)=>{
+      console.warn(i+1, '-', w.reason, w.link ? '('+w.link+')' : '');
+    });
+    if(warnings.length>20) console.warn('and', warnings.length-20, 'more warnings...');
+  }
 }
 
 main().catch(e=>{ console.error(e); process.exit(1); });
