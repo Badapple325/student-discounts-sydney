@@ -17,6 +17,10 @@ input,select,button,textarea{font-size:16px;padding:10px;border:1px solid #ddd;b
 .card h3{margin:0 0 6px 0;font-size:16px}
 .meta{font-size:13px;color:var(--muted);margin-bottom:8px}
 .badge{display:inline-block;background:#f1f7ff;color:var(--accent);padding:4px 8px;border-radius:999px;font-size:12px;margin-right:6px}
+.action-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.small-action{background:#fff;border:1px solid #ddd;padding:6px 8px;border-radius:6px;font-size:13px;cursor:pointer}
+.small-action:hover{background:#f7f7fb}
+.small-action:focus{outline:3px solid rgba(0,102,204,0.15);box-shadow:0 0 0 3px rgba(0,102,204,0.08)}
 .submit{margin-top:28px;padding:18px;border-top:1px solid #f0f0f0}
 .howitworks{margin-top:28px}
 footer{border-top:1px solid #eee;padding:14px;background:#fafafa;margin-top:28px}

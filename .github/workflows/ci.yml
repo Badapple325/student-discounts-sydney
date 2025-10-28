@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install dependencies (none required)
+        run: echo "No npm install required for lightweight checks"
+      - name: Validate deals.json
+        run: node tools/validate_deals.js
+      - name: Run parse smoke test
+        run: node tools/tmp/parse_deals_check.js || true

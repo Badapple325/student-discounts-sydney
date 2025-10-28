@@ -71,27 +71,62 @@ function renderDeals(list){
         const isPlaceholder = String(d.link||'').includes('example.com');
         return `<p><a class="redirect-link" href="/api/redirect?slug=${encodeURIComponent(slug)}" target="_blank" rel="noopener">View terms / retailer</a> ${isPlaceholder? '<span class="small muted">• Link: placeholder</span>' : ''}</p>`;
       })() : ''}
-      ${d.code? `<p><button class="btn btn-ghost" data-copy="${encodeURIComponent(d.code)}">Copy code: ${escapeHtml(d.code)}</button></p>` : ''}
-      ${d.link? `<p><button class="btn btn-primary" data-claim-slug="${encodeURIComponent(slug)}">Claim / Open</button></p>` : ''}
+      <div class="action-row">
+        ${d.code? `<button class="small-action" data-copy="${encodeURIComponent(d.code)}" aria-label="Copy promo code for ${escapeHtml(d.retailer)}">Copy code</button>` : ''}
+        ${d.link? `<button class="small-action" data-copy-link="${encodeURIComponent(d.link)}" aria-label="Copy link for ${escapeHtml(d.retailer)}">Copy link</button>` : ''}
+        ${d.link? `<button class="small-action" data-claim-slug="${encodeURIComponent(slug)}" aria-label="Open or claim deal for ${escapeHtml(d.retailer)}">Claim / Open</button>` : ''}
+        <button class="small-action report-action" data-report='${encodeURIComponent(JSON.stringify({id: d.id||slug, retailer: d.retailer||'', link: d.link||''}))}' aria-label="Report broken link for ${escapeHtml(d.retailer)}">Report</button>
+      </div>
       ${d.how? `<p class="muted">How to claim: ${escapeHtml(d.how)}</p>` : ''}
     </article>`;
   }).join('');
 
   // attach copy handlers
-  Array.from(document.querySelectorAll('button[data-copy]')).forEach(btn=>{
-    btn.addEventListener('click', async (e)=>{
-      const code = decodeURIComponent(btn.getAttribute('data-copy'));
-      try{
-        await navigator.clipboard.writeText(code);
-        alert('Promo code copied: ' + code);
-        // log copy event
-        fetch('/api/track', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ event: 'copy_code', data: { code } }) }).catch(()=>{});
-      }catch(err){
-        console.error('copy failed', err);
-        alert('Could not copy automatically — please select and copy: ' + code);
-      }
+    Array.from(document.querySelectorAll('button[data-copy]')).forEach(btn=>{
+      btn.addEventListener('click', async (e)=>{
+        const code = decodeURIComponent(btn.getAttribute('data-copy'));
+        try{
+          await navigator.clipboard.writeText(code);
+          alert('Promo code copied: ' + code);
+          // log copy event
+          fetch('/api/track', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ event: 'copy_code', data: { code } }) }).catch(()=>{});
+        }catch(err){
+          console.error('copy failed', err);
+          alert('Could not copy automatically — please select and copy: ' + code);
+        }
+      });
     });
-  });
+
+    // attach copy-link handlers
+    Array.from(document.querySelectorAll('button[data-copy-link]')).forEach(btn=>{
+      btn.addEventListener('click', async ()=>{
+        const link = decodeURIComponent(btn.getAttribute('data-copy-link'));
+        try{
+          await navigator.clipboard.writeText(link);
+          alert('Link copied to clipboard');
+          fetch('/api/track', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ event: 'copy_link', data: { link } }) }).catch(()=>{});
+        }catch(err){
+          console.error('copy link failed', err);
+          alert('Could not copy link automatically — please copy manually: ' + link);
+        }
+      });
+    });
+
+    // attach report handlers
+    Array.from(document.querySelectorAll('button.report-action')).forEach(btn=>{
+      btn.addEventListener('click', ()=>{
+        try{
+          const payload = JSON.parse(decodeURIComponent(btn.getAttribute('data-report')));
+          const subject = encodeURIComponent(`Report: broken or incorrect deal - ${payload.retailer || payload.id}`);
+          const body = encodeURIComponent(`I want to report an issue with this deal:\n\nRetailer: ${payload.retailer}\nDeal id: ${payload.id}\nLink: ${payload.link || '<none>'}\n\nDescribe the problem:\n`);
+          // open mailto in new window/tab (user composes email)
+          window.location.href = `mailto:you@yourdomain.example?subject=${subject}&body=${body}`;
+        }catch(e){
+          console.error('report action failed', e);
+          alert('Could not open report form — please email support.');
+        }
+      });
+    });
 
   // attach claim handlers
   Array.from(document.querySelectorAll('button[data-claim-slug]')).forEach(btn=>{
