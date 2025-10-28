@@ -1360,7 +1360,8 @@
     "code": "",
     "id": "broadway-shopping-centre-1",
     "title": "Broadway Shopping Centre",
-    "placeholder": false
+    "placeholder": false,
+    "logo": "/assets/logos/broadway-shopping-centre-1.png"
   },
   {
     "retailer": "Manning Bar",
@@ -2703,7 +2704,8 @@
     "code": "",
     "id": "oasis-caf-1",
     "title": "Oasis Café",
-    "placeholder": false
+    "placeholder": false,
+    "logo": "/assets/logos/oasis-caf-1.png"
   },
   {
     "retailer": "The Coffee Cart",
