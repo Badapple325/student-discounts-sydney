@@ -645,7 +645,7 @@
     "link": "https://education.github.com/pack",
     "how": "Verify using GitHub Education (student email or ID)",
     "code": "",
-    "id": "github-student-developer-pack",
+    "id": "github-student-developer-pack-1",
     "title": "GitHub Student Developer Pack",
     "placeholder": false
   },
@@ -658,7 +658,7 @@
     "link": "https://transportnsw.info/tickets-opal/opal-card-concessions",
     "how": "Check eligibility on Transport NSW and follow their application instructions",
     "code": "",
-    "id": "opal-concession-student-info",
+    "id": "opal-concession-student-info-1",
     "title": "Opal Concession & Student Info",
     "placeholder": false
   },
@@ -673,7 +673,7 @@
     "how": "Show student ID at counter",
     "code": "",
     "placeholder": true,
-    "id": "local-campus-cafe"
+    "id": "local-campus-cafe-2"
   },
   {
     "title": "Inner West Coffee",
@@ -686,7 +686,7 @@
     "how": "Show student concession card",
     "code": "",
     "placeholder": true,
-    "id": "inner-west-coffee"
+    "id": "inner-west-coffee-2"
   },
   {
     "title": "Campus Gym Discount",
@@ -699,7 +699,7 @@
     "how": "Sign up at gym desk with student email",
     "code": "",
     "placeholder": true,
-    "id": "campus-gym-discount"
+    "id": "campus-gym-discount-2"
   },
   {
     "title": "Books & More",
@@ -712,7 +712,7 @@
     "how": "Use your .edu.au email for online checkout",
     "code": "",
     "placeholder": true,
-    "id": "books-more"
+    "id": "books-more-2"
   },
   {
     "title": "StudentTech Store",
@@ -725,7 +725,7 @@
     "how": "Verify with student email or upload student ID",
     "code": "TECH10",
     "placeholder": true,
-    "id": "studenttech-store"
+    "id": "studenttech-store-2"
   },
   {
     "title": "Fitness Studio — Newtown",
@@ -738,7 +738,7 @@
     "how": "Show student ID on arrival",
     "code": "",
     "placeholder": true,
-    "id": "fitness-studio-newtown"
+    "id": "fitness-studio-newtown-2"
   },
   {
     "title": "Ramen House",
@@ -751,7 +751,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "ramen-house"
+    "id": "ramen-house-2"
   },
   {
     "title": "Clothing Outlet",
@@ -764,7 +764,7 @@
     "how": "Show student ID at register",
     "code": "",
     "placeholder": true,
-    "id": "clothing-outlet"
+    "id": "clothing-outlet-2"
   },
   {
     "title": "Local Taxi App",
@@ -777,7 +777,7 @@
     "how": "Verify student email in app",
     "code": "",
     "placeholder": true,
-    "id": "local-taxi-app"
+    "id": "local-taxi-app-2"
   },
   {
     "title": "Cinema Night",
@@ -790,7 +790,7 @@
     "how": "Buy online with student promo code",
     "code": "",
     "placeholder": true,
-    "id": "cinema-night"
+    "id": "cinema-night-2"
   },
   {
     "title": "Language Course Discount",
@@ -803,7 +803,7 @@
     "how": "Register with student email",
     "code": "",
     "placeholder": true,
-    "id": "language-course-discount"
+    "id": "language-course-discount-2"
   },
   {
     "title": "Co-working Day Pass",
@@ -816,7 +816,7 @@
     "how": "Show student ID at check-in",
     "code": "",
     "placeholder": true,
-    "id": "co-working-day-pass"
+    "id": "co-working-day-pass-2"
   },
   {
     "title": "Bike Shop",
@@ -829,7 +829,7 @@
     "how": "Mention student discount in shop",
     "code": "",
     "placeholder": true,
-    "id": "bike-shop"
+    "id": "bike-shop-2"
   },
   {
     "title": "Photo Prints",
@@ -842,7 +842,7 @@
     "how": "Use student email at checkout",
     "code": "",
     "placeholder": true,
-    "id": "photo-prints"
+    "id": "photo-prints-2"
   },
   {
     "title": "Coffee Chain X",
@@ -855,7 +855,7 @@
     "how": "Register with student email",
     "code": "",
     "placeholder": true,
-    "id": "coffee-chain-x"
+    "id": "coffee-chain-x-2"
   },
   {
     "title": "Study Software — Pro",
@@ -868,7 +868,7 @@
     "how": "Apply student discount code at checkout",
     "code": "STUDY50",
     "placeholder": true,
-    "id": "study-software-pro"
+    "id": "study-software-pro-2"
   },
   {
     "title": "Bike Share Promo",
@@ -881,7 +881,7 @@
     "how": "Enter university email to claim",
     "code": "",
     "placeholder": true,
-    "id": "bike-share-promo"
+    "id": "bike-share-promo-2"
   },
   {
     "title": "Local Pizzeria",
@@ -894,7 +894,7 @@
     "how": "Order in-store and show ID",
     "code": "",
     "placeholder": true,
-    "id": "local-pizzeria"
+    "id": "local-pizzeria-2"
   },
   {
     "title": "Tech Repair — Student Rate",
@@ -907,7 +907,7 @@
     "how": "Show student ID at drop-off",
     "code": "",
     "placeholder": true,
-    "id": "tech-repair-student-rate"
+    "id": "tech-repair-student-rate-2"
   },
   {
     "title": "Campus Barber",
@@ -920,7 +920,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "campus-barber"
+    "id": "campus-barber-2"
   },
   {
     "title": "Study Cafe — Glebe",
@@ -933,7 +933,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "study-cafe-glebe"
+    "id": "study-cafe-glebe-2"
   },
   {
     "title": "Stationery Express",
@@ -946,7 +946,7 @@
     "how": "Enter student email at checkout",
     "code": "",
     "placeholder": true,
-    "id": "stationery-express"
+    "id": "stationery-express-2"
   },
   {
     "title": "Coding Bootcamp Discount",
@@ -959,7 +959,7 @@
     "how": "Apply student code at signup",
     "code": "",
     "placeholder": true,
-    "id": "coding-bootcamp-discount"
+    "id": "coding-bootcamp-discount-2"
   },
   {
     "title": "Vintage Clothing Lane",
@@ -972,7 +972,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "vintage-clothing-lane"
+    "id": "vintage-clothing-lane-2"
   },
   {
     "title": "Photo Studio Student Rate",
@@ -985,7 +985,7 @@
     "how": "Book online and mention student discount",
     "code": "",
     "placeholder": true,
-    "id": "photo-studio-student-rate"
+    "id": "photo-studio-student-rate-2"
   },
   {
     "title": "Boba Spot",
@@ -998,7 +998,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "boba-spot"
+    "id": "boba-spot-2"
   },
   {
     "title": "Laptop Accessories Store",
@@ -1011,7 +1011,7 @@
     "how": "Verify with student email",
     "code": "",
     "placeholder": true,
-    "id": "laptop-accessories-store"
+    "id": "laptop-accessories-store-2"
   },
   {
     "title": "Yoga Studio — Student Mat Class",
@@ -1024,7 +1024,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "yoga-studio-student-mat-class"
+    "id": "yoga-studio-student-mat-class-2"
   },
   {
     "title": "Public Transport Card Top-up Offer",
@@ -1037,7 +1037,7 @@
     "how": "Register with student email",
     "code": "",
     "placeholder": true,
-    "id": "public-transport-card-top-up-offer"
+    "id": "public-transport-card-top-up-offer-2"
   },
   {
     "title": "Cheap Textbook Resale",
@@ -1050,7 +1050,7 @@
     "how": "Sign up with student email",
     "code": "",
     "placeholder": true,
-    "id": "cheap-textbook-resale"
+    "id": "cheap-textbook-resale-2"
   },
   {
     "title": "Student Meal Box",
@@ -1063,7 +1063,7 @@
     "how": "Subscribe with student email",
     "code": "MEAL30",
     "placeholder": true,
-    "id": "student-meal-box"
+    "id": "student-meal-box-2"
   },
   {
     "title": "Busker's Music Shop",
@@ -1076,7 +1076,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "busker-s-music-shop"
+    "id": "busker-s-music-shop-2"
   },
   {
     "title": "Campus Safe Ride Program",
@@ -1089,7 +1089,7 @@
     "how": "Verify student email in app",
     "code": "",
     "placeholder": true,
-    "id": "campus-safe-ride-program"
+    "id": "campus-safe-ride-program-2"
   },
   {
     "title": "UOW Campus Cafe",
@@ -1102,7 +1102,7 @@
     "how": "Show student ID at counter",
     "code": "",
     "placeholder": true,
-    "id": "uow-campus-cafe"
+    "id": "uow-campus-cafe-2"
   },
   {
     "title": "Wollongong Gym Student Rate",
@@ -1115,7 +1115,7 @@
     "how": "Sign up with student email or show ID",
     "code": "",
     "placeholder": true,
-    "id": "wollongong-gym-student-rate"
+    "id": "wollongong-gym-student-rate-2"
   },
   {
     "title": "UOW Bookshop Discount",
@@ -1128,7 +1128,7 @@
     "how": "Present student ID at checkout",
     "code": "",
     "placeholder": true,
-    "id": "uow-bookshop-discount"
+    "id": "uow-bookshop-discount-2"
   },
   {
     "title": "Wollongong Cinema Students",
@@ -1141,7 +1141,7 @@
     "how": "Use student promo code online or show ID",
     "code": "",
     "placeholder": true,
-    "id": "wollongong-cinema-students"
+    "id": "wollongong-cinema-students-2"
   },
   {
     "title": "UOW Bus Discount",
@@ -1154,7 +1154,7 @@
     "how": "Register with student email",
     "code": "",
     "placeholder": true,
-    "id": "uow-bus-discount"
+    "id": "uow-bus-discount-2"
   },
   {
     "title": "Wollongong Bike Repair",
@@ -1167,7 +1167,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "wollongong-bike-repair"
+    "id": "wollongong-bike-repair-2"
   },
   {
     "title": "UOW Language Workshops",
@@ -1180,7 +1180,7 @@
     "how": "Sign up with student email",
     "code": "",
     "placeholder": true,
-    "id": "uow-language-workshops"
+    "id": "uow-language-workshops-2"
   },
   {
     "title": "Furniture Hire — Student Pack",
@@ -1193,7 +1193,7 @@
     "how": "Verify with student email",
     "code": "",
     "placeholder": true,
-    "id": "furniture-hire-student-pack"
+    "id": "furniture-hire-student-pack-2"
   },
   {
     "title": "Student Storage Promo",
@@ -1206,7 +1206,7 @@
     "how": "Book online and use student code",
     "code": "",
     "placeholder": true,
-    "id": "student-storage-promo"
+    "id": "student-storage-promo-2"
   },
   {
     "title": "Online Tutoring Discount",
@@ -1219,7 +1219,7 @@
     "how": "Verify student email",
     "code": "",
     "placeholder": true,
-    "id": "online-tutoring-discount"
+    "id": "online-tutoring-discount-2"
   },
   {
     "title": "Student Phone Plan — Discount",
@@ -1232,7 +1232,7 @@
     "how": "Verify with student ID or email",
     "code": "",
     "placeholder": true,
-    "id": "student-phone-plan-discount"
+    "id": "student-phone-plan-discount-2"
   },
   {
     "title": "Art Supplies Student Discount",
@@ -1245,7 +1245,7 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "art-supplies-student-discount"
+    "id": "art-supplies-student-discount-2"
   },
   {
     "title": "Student Co-living Discount",
@@ -1258,7 +1258,7 @@
     "how": "Apply with student email",
     "code": "",
     "placeholder": true,
-    "id": "student-co-living-discount"
+    "id": "student-co-living-discount-2"
   },
   {
     "title": "Music Lessons — Student Rate",
@@ -1271,7 +1271,7 @@
     "how": "Book with student email",
     "code": "",
     "placeholder": true,
-    "id": "music-lessons-student-rate"
+    "id": "music-lessons-student-rate-2"
   },
   {
     "title": "Discounted 3D Printing",
@@ -1284,7 +1284,7 @@
     "how": "Upload student ID when ordering",
     "code": "",
     "placeholder": true,
-    "id": "discounted-3d-printing"
+    "id": "discounted-3d-printing-2"
   },
   {
     "title": "Student Gym — Wollongong Climb",
@@ -1297,6 +1297,1891 @@
     "how": "Show student ID",
     "code": "",
     "placeholder": true,
-    "id": "student-gym-wollongong-climb"
+    "id": "student-gym-wollongong-climb-2"
+  },
+  {
+    "retailer": "Apple",
+    "category": "Tech",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.apple.com/au_edu_500/",
+    "how": "",
+    "code": "",
+    "id": "apple-1",
+    "title": "Apple",
+    "placeholder": false
+  },
+  {
+    "retailer": "Spotify",
+    "category": "Music",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.spotify.com/au/student/",
+    "how": "",
+    "code": "",
+    "id": "spotify-1",
+    "title": "Spotify",
+    "placeholder": false
+  },
+  {
+    "retailer": "Adobe Creative Cloud",
+    "category": "Tech",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.adobe.com/au/creativecloud/buy/students.html",
+    "how": "",
+    "code": "",
+    "id": "adobe-creative-cloud-1",
+    "title": "Adobe Creative Cloud",
+    "placeholder": false
+  },
+  {
+    "retailer": "Microsoft",
+    "category": "Tech",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.microsoft.com/en-au/store/b/student",
+    "how": "",
+    "code": "",
+    "id": "microsoft-1",
+    "title": "Microsoft",
+    "placeholder": false
+  },
+  {
+    "retailer": "The Iconic",
+    "category": "Fashion",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.theiconic.com.au",
+    "how": "",
+    "code": "",
+    "id": "the-iconic-1",
+    "title": "The Iconic",
+    "placeholder": false
+  },
+  {
+    "retailer": "ASOS",
+    "category": "Fashion",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.asos.com/au",
+    "how": "",
+    "code": "",
+    "id": "asos-1",
+    "title": "ASOS",
+    "placeholder": false
+  },
+  {
+    "retailer": "Student Edge",
+    "category": "Mixed",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au",
+    "how": "",
+    "code": "",
+    "id": "student-edge-1",
+    "title": "Student Edge",
+    "placeholder": false
+  },
+  {
+    "retailer": "Domino's",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/dominos",
+    "how": "",
+    "code": "",
+    "id": "dominos-1",
+    "title": "Domino's",
+    "placeholder": false
+  },
+  {
+    "retailer": "Uber",
+    "category": "Transport",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/uber",
+    "how": "",
+    "code": "",
+    "id": "uber-1",
+    "title": "Uber",
+    "placeholder": false
+  },
+  {
+    "retailer": "STA Travel",
+    "category": "Travel",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.statravel.com.au",
+    "how": "",
+    "code": "",
+    "id": "sta-travel-1",
+    "title": "STA Travel",
+    "placeholder": false
+  },
+  {
+    "retailer": "Amazon Prime",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.amazon.com.au/primestudent",
+    "how": "",
+    "code": "",
+    "id": "amazon-prime-1",
+    "title": "Amazon Prime",
+    "placeholder": false
+  },
+  {
+    "retailer": "Samsung",
+    "category": "Tech",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.samsung.com/au/offer/student-discount/",
+    "how": "",
+    "code": "",
+    "id": "samsung-1",
+    "title": "Samsung",
+    "placeholder": false
+  },
+  {
+    "retailer": "JB Hi-Fi",
+    "category": "Tech",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://www.jbhifi.com.au",
+    "how": "",
+    "code": "",
+    "id": "jb-hi-fi-1",
+    "title": "JB Hi-Fi",
+    "placeholder": false
+  },
+  {
+    "retailer": "Optus",
+    "category": "Telecom",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.optus.com.au",
+    "how": "",
+    "code": "",
+    "id": "optus-1",
+    "title": "Optus",
+    "placeholder": false
+  },
+  {
+    "retailer": "Vodafone",
+    "category": "Telecom",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.vodafone.com.au",
+    "how": "",
+    "code": "",
+    "id": "vodafone-1",
+    "title": "Vodafone",
+    "placeholder": false
+  },
+  {
+    "retailer": "Nike",
+    "category": "Fashion",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.nike.com/au",
+    "how": "",
+    "code": "",
+    "id": "nike-1",
+    "title": "Nike",
+    "placeholder": false
+  },
+  {
+    "retailer": "Adidas",
+    "category": "Fashion",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.adidas.com.au",
+    "how": "",
+    "code": "",
+    "id": "adidas-1",
+    "title": "Adidas",
+    "placeholder": false
+  },
+  {
+    "retailer": "Cotton On",
+    "category": "Fashion",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://cottonon.com/AU",
+    "how": "",
+    "code": "",
+    "id": "cotton-on-1",
+    "title": "Cotton On",
+    "placeholder": false
+  },
+  {
+    "retailer": "Grill’d",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Near USYD Broadway",
+    "link": "https://studentedge.org/au/deals/grilld",
+    "how": "",
+    "code": "",
+    "id": "grilld-1",
+    "title": "Grill’d",
+    "placeholder": false
+  },
+  {
+    "retailer": "Hoyts",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Broadway & Wetherill Park",
+    "link": "https://www.hoyts.com.au",
+    "how": "",
+    "code": "",
+    "id": "hoyts-1",
+    "title": "Hoyts",
+    "placeholder": false
+  },
+  {
+    "retailer": "Event Cinemas",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "George St Sydney",
+    "link": "https://www.eventcinemas.com.au",
+    "how": "",
+    "code": "",
+    "id": "event-cinemas-1",
+    "title": "Event Cinemas",
+    "placeholder": false
+  },
+  {
+    "retailer": "Canva",
+    "category": "Tech",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.canva.com/education/",
+    "how": "",
+    "code": "",
+    "id": "canva-1",
+    "title": "Canva",
+    "placeholder": false
+  },
+  {
+    "retailer": "Notion",
+    "category": "Tech",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.notion.so/students",
+    "how": "",
+    "code": "",
+    "id": "notion-1",
+    "title": "Notion",
+    "placeholder": false
+  },
+  {
+    "retailer": "Autodesk",
+    "category": "Tech",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.autodesk.com/education/free-software/overview",
+    "how": "",
+    "code": "",
+    "id": "autodesk-1",
+    "title": "Autodesk",
+    "placeholder": false
+  },
+  {
+    "retailer": "Boost Juice",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "UTS Central & Macquarie Centre",
+    "link": "https://studentedge.org/au/deals/boost-juice",
+    "how": "",
+    "code": "",
+    "id": "boost-juice-1",
+    "title": "Boost Juice",
+    "placeholder": false
+  },
+  {
+    "retailer": "Oporto",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Near UNSW Kensington",
+    "link": "https://studentedge.org/au/deals/oporto",
+    "how": "",
+    "code": "",
+    "id": "oporto-1",
+    "title": "Oporto",
+    "placeholder": false
+  },
+  {
+    "retailer": "Mad Mex",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "UTS Broadway",
+    "link": "https://www.madmex.com.au",
+    "how": "",
+    "code": "",
+    "id": "mad-mex-1",
+    "title": "Mad Mex",
+    "placeholder": false
+  },
+  {
+    "retailer": "Guzman y Gomez",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "USYD Camperdown",
+    "link": "https://www.guzmanygomez.com.au",
+    "how": "",
+    "code": "",
+    "id": "guzman-y-gomez-1",
+    "title": "Guzman y Gomez",
+    "placeholder": false
+  },
+  {
+    "retailer": "Fitness First",
+    "category": "Fitness",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Macquarie Park & Bondi",
+    "link": "https://www.fitnessfirst.com.au",
+    "how": "",
+    "code": "",
+    "id": "fitness-first-1",
+    "title": "Fitness First",
+    "placeholder": false
+  },
+  {
+    "retailer": "Anytime Fitness",
+    "category": "Fitness",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Near UOW Wollongong",
+    "link": "https://www.anytimefitness.com.au",
+    "how": "",
+    "code": "",
+    "id": "anytime-fitness-1",
+    "title": "Anytime Fitness",
+    "placeholder": false
+  },
+  {
+    "retailer": "Sydney Opera House",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://www.sydneyoperahouse.com",
+    "how": "",
+    "code": "",
+    "id": "sydney-opera-house-1",
+    "title": "Sydney Opera House",
+    "placeholder": false
+  },
+  {
+    "retailer": "Art Gallery of NSW",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://www.artgallery.nsw.gov.au",
+    "how": "",
+    "code": "",
+    "id": "art-gallery-of-nsw-1",
+    "title": "Art Gallery of NSW",
+    "placeholder": false
+  },
+  {
+    "retailer": "Museum of Contemporary Art",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Circular Quay",
+    "link": "https://www.mca.com.au",
+    "how": "",
+    "code": "",
+    "id": "museum-of-contemporary-art-1",
+    "title": "Museum of Contemporary Art",
+    "placeholder": false
+  },
+  {
+    "retailer": "State Library of NSW",
+    "category": "Education",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://www.sl.nsw.gov.au",
+    "how": "",
+    "code": "",
+    "id": "state-library-of-nsw-1",
+    "title": "State Library of NSW",
+    "placeholder": false
+  },
+  {
+    "retailer": "UNSW Bookshop",
+    "category": "Education",
+    "university": "all",
+    "universityLabel": "",
+    "description": "UNSW Kensington",
+    "link": "https://www.bookshop.unsw.edu.au",
+    "how": "",
+    "code": "",
+    "id": "unsw-bookshop-1",
+    "title": "UNSW Bookshop",
+    "placeholder": false
+  },
+  {
+    "retailer": "UTS Co-op Bookshop",
+    "category": "Education",
+    "university": "all",
+    "universityLabel": "",
+    "description": "UTS Broadway",
+    "link": "https://coop.com.au",
+    "how": "",
+    "code": "",
+    "id": "uts-co-op-bookshop-1",
+    "title": "UTS Co-op Bookshop",
+    "placeholder": false
+  },
+  {
+    "retailer": "Macquarie Uni Sport",
+    "category": "Fitness",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Macquarie University",
+    "link": "https://www.mq.edu.au/sport",
+    "how": "",
+    "code": "",
+    "id": "macquarie-uni-sport-1",
+    "title": "Macquarie Uni Sport",
+    "placeholder": false
+  },
+  {
+    "retailer": "UOW Pulse",
+    "category": "Mixed",
+    "university": "all",
+    "universityLabel": "",
+    "description": "UOW Wollongong",
+    "link": "https://pulse.uow.edu.au",
+    "how": "",
+    "code": "",
+    "id": "uow-pulse-1",
+    "title": "UOW Pulse",
+    "placeholder": false
+  },
+  {
+    "retailer": "Western Sydney Uni Village",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Parramatta & Penrith",
+    "link": "https://www.westernsydney.edu.au",
+    "how": "",
+    "code": "",
+    "id": "western-sydney-uni-village-1",
+    "title": "Western Sydney Uni Village",
+    "placeholder": false
+  },
+  {
+    "retailer": "Notre Dame Uni Café",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Broadway",
+    "link": "https://www.notredame.edu.au",
+    "how": "",
+    "code": "",
+    "id": "notre-dame-uni-caf-1",
+    "title": "Notre Dame Uni Café",
+    "placeholder": false
+  },
+  {
+    "retailer": "Sydney Uni Sport & Fitness",
+    "category": "Fitness",
+    "university": "all",
+    "universityLabel": "",
+    "description": "USYD Camperdown",
+    "link": "https://susf.com.au",
+    "how": "",
+    "code": "",
+    "id": "sydney-uni-sport-and-fitness-1",
+    "title": "Sydney Uni Sport & Fitness",
+    "placeholder": false
+  },
+  {
+    "retailer": "UNSW Roundhouse",
+    "category": "Entertainment/Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "UNSW Kensington",
+    "link": "https://www.arc.unsw.edu.au",
+    "how": "",
+    "code": "",
+    "id": "unsw-roundhouse-1",
+    "title": "UNSW Roundhouse",
+    "placeholder": false
+  },
+  {
+    "retailer": "Coogee Pavilion",
+    "category": "Food/Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Near UNSW Kensington",
+    "link": "https://merivale.com/venues/coogeepavilion",
+    "how": "",
+    "code": "",
+    "id": "coogee-pavilion-1",
+    "title": "Coogee Pavilion",
+    "placeholder": false
+  },
+  {
+    "retailer": "The Lansdowne Hotel",
+    "category": "Entertainment/Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Near USYD Broadway",
+    "link": "https://thelansdownehotel.com.au",
+    "how": "",
+    "code": "",
+    "id": "the-lansdowne-hotel-1",
+    "title": "The Lansdowne Hotel",
+    "placeholder": false
+  },
+  {
+    "retailer": "The Soda Factory",
+    "category": "Entertainment/Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Surry Hills (near UTS)",
+    "link": "https://www.sodafactory.com.au",
+    "how": "",
+    "code": "",
+    "id": "the-soda-factory-1",
+    "title": "The Soda Factory",
+    "placeholder": false
+  },
+  {
+    "retailer": "The Underground Bar",
+    "category": "Entertainment/Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "UTS Broadway",
+    "link": "https://activateuts.com.au",
+    "how": "",
+    "code": "",
+    "id": "the-underground-bar-1",
+    "title": "The Underground Bar",
+    "placeholder": false
+  },
+  {
+    "retailer": "The Roundhouse Bar",
+    "category": "Entertainment/Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "UNSW Kensington",
+    "link": "https://www.arc.unsw.edu.au",
+    "how": "",
+    "code": "",
+    "id": "the-roundhouse-bar-1",
+    "title": "The Roundhouse Bar",
+    "placeholder": false
+  },
+  {
+    "retailer": "UOW UniBar",
+    "category": "Food/Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "UOW Wollongong",
+    "link": "https://unibar.uow.edu.au",
+    "how": "",
+    "code": "",
+    "id": "uow-unibar-1",
+    "title": "UOW UniBar",
+    "placeholder": false
+  },
+  {
+    "retailer": "Western Sydney Uni Fitness",
+    "category": "Fitness",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Parramatta & Penrith campuses",
+    "link": "https://www.westernsydney.edu.au",
+    "how": "",
+    "code": "",
+    "id": "western-sydney-uni-fitness-1",
+    "title": "Western Sydney Uni Fitness",
+    "placeholder": false
+  },
+  {
+    "retailer": "Broadway Shopping Centre",
+    "category": "Fashion/Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Near USYD & UTS",
+    "link": "https://www.broadwaysydney.com.au",
+    "how": "",
+    "code": "",
+    "id": "broadway-shopping-centre-1",
+    "title": "Broadway Shopping Centre",
+    "placeholder": false
+  },
+  {
+    "retailer": "Manning Bar",
+    "category": "Entertainment/Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "USYD Camperdown",
+    "link": "https://usu.edu.au",
+    "how": "",
+    "code": "",
+    "id": "manning-bar-1",
+    "title": "Manning Bar",
+    "placeholder": false
+  },
+  {
+    "retailer": "The Loft UTS",
+    "category": "Food/Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "UTS Broadway",
+    "link": "https://activateuts.com.au",
+    "how": "",
+    "code": "",
+    "id": "the-loft-uts-1",
+    "title": "The Loft UTS",
+    "placeholder": false
+  },
+  {
+    "retailer": "Macquarie Centre",
+    "category": "Fashion/Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Macquarie University",
+    "link": "https://www.macquariecentre.com.au",
+    "how": "",
+    "code": "",
+    "id": "macquarie-centre-1",
+    "title": "Macquarie Centre",
+    "placeholder": false
+  },
+  {
+    "retailer": "Maccas (McDonald’s)",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/mcdonalds",
+    "how": "",
+    "code": "",
+    "id": "maccas-mcdonalds-1",
+    "title": "Maccas (McDonald’s)",
+    "placeholder": false
+  },
+  {
+    "retailer": "Betty’s Burgers",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Westfield Sydney & Wollongong",
+    "link": "https://bettysburgers.com.au",
+    "how": "",
+    "code": "",
+    "id": "bettys-burgers-1",
+    "title": "Betty’s Burgers",
+    "placeholder": false
+  },
+  {
+    "retailer": "Bondi Icebergs",
+    "category": "Fitness/Leisure",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Bondi (popular with UNSW students)",
+    "link": "https://icebergs.com.au",
+    "how": "",
+    "code": "",
+    "id": "bondi-icebergs-1",
+    "title": "Bondi Icebergs",
+    "placeholder": false
+  },
+  {
+    "retailer": "Sydney Tower Eye",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://www.sydneytowereye.com.au",
+    "how": "",
+    "code": "",
+    "id": "sydney-tower-eye-1",
+    "title": "Sydney Tower Eye",
+    "placeholder": false
+  },
+  {
+    "retailer": "Taronga Zoo",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Mosman (popular with USYD/UNSW)",
+    "link": "https://taronga.org.au",
+    "how": "",
+    "code": "",
+    "id": "taronga-zoo-1",
+    "title": "Taronga Zoo",
+    "placeholder": false
+  },
+  {
+    "retailer": "Powerhouse Museum",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Ultimo (near UTS)",
+    "link": "https://maas.museum/powerhouse",
+    "how": "",
+    "code": "",
+    "id": "powerhouse-museum-1",
+    "title": "Powerhouse Museum",
+    "placeholder": false
+  },
+  {
+    "retailer": "Australian Museum",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://australian.museum",
+    "how": "",
+    "code": "",
+    "id": "australian-museum-1",
+    "title": "Australian Museum",
+    "placeholder": false
+  },
+  {
+    "retailer": "SEA LIFE Sydney Aquarium",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Darling Harbour",
+    "link": "https://www.sydneyaquarium.com.au",
+    "how": "",
+    "code": "",
+    "id": "sea-life-sydney-aquarium-1",
+    "title": "SEA LIFE Sydney Aquarium",
+    "placeholder": false
+  },
+  {
+    "retailer": "Wild Life Sydney Zoo",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Darling Harbour",
+    "link": "https://www.wildlifesydney.com.au",
+    "how": "",
+    "code": "",
+    "id": "wild-life-sydney-zoo-1",
+    "title": "Wild Life Sydney Zoo",
+    "placeholder": false
+  },
+  {
+    "retailer": "Madame Tussauds Sydney",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Darling Harbour",
+    "link": "https://www.madametussauds.com/sydney",
+    "how": "",
+    "code": "",
+    "id": "madame-tussauds-sydney-1",
+    "title": "Madame Tussauds Sydney",
+    "placeholder": false
+  },
+  {
+    "retailer": "Luna Park Sydney",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Milsons Point",
+    "link": "https://www.lunaparksydney.com",
+    "how": "",
+    "code": "",
+    "id": "luna-park-sydney-1",
+    "title": "Luna Park Sydney",
+    "placeholder": false
+  },
+  {
+    "retailer": "Darling Quarter Dining",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Near UTS & USYD",
+    "link": "https://www.darlingquarter.com",
+    "how": "",
+    "code": "",
+    "id": "darling-quarter-dining-1",
+    "title": "Darling Quarter Dining",
+    "placeholder": false
+  },
+  {
+    "retailer": "Pancakes on the Rocks",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD & Darling Harbour",
+    "link": "https://www.pancakesontherocks.com.au",
+    "how": "",
+    "code": "",
+    "id": "pancakes-on-the-rocks-1",
+    "title": "Pancakes on the Rocks",
+    "placeholder": false
+  },
+  {
+    "retailer": "Starbucks",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/starbucks",
+    "how": "",
+    "code": "",
+    "id": "starbucks-1",
+    "title": "Starbucks",
+    "placeholder": false
+  },
+  {
+    "retailer": "Gloria Jean’s",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/gloria-jeans",
+    "how": "",
+    "code": "",
+    "id": "gloria-jeans-1",
+    "title": "Gloria Jean’s",
+    "placeholder": false
+  },
+  {
+    "retailer": "Chatime",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/chatime",
+    "how": "",
+    "code": "",
+    "id": "chatime-1",
+    "title": "Chatime",
+    "placeholder": false
+  },
+  {
+    "retailer": "Top Juice",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/top-juice",
+    "how": "",
+    "code": "",
+    "id": "top-juice-1",
+    "title": "Top Juice",
+    "placeholder": false
+  },
+  {
+    "retailer": "Subway",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/subway",
+    "how": "",
+    "code": "",
+    "id": "subway-1",
+    "title": "Subway",
+    "placeholder": false
+  },
+  {
+    "retailer": "KFC",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/kfc",
+    "how": "",
+    "code": "",
+    "id": "kfc-1",
+    "title": "KFC",
+    "placeholder": false
+  },
+  {
+    "retailer": "Hungry Jack’s",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/hungry-jacks",
+    "how": "",
+    "code": "",
+    "id": "hungry-jacks-1",
+    "title": "Hungry Jack’s",
+    "placeholder": false
+  },
+  {
+    "retailer": "7-Eleven",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/7-eleven",
+    "how": "",
+    "code": "",
+    "id": "7-eleven-1",
+    "title": "7-Eleven",
+    "placeholder": false
+  },
+  {
+    "retailer": "Coles",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/coles",
+    "how": "",
+    "code": "",
+    "id": "coles-1",
+    "title": "Coles",
+    "placeholder": false
+  },
+  {
+    "retailer": "Woolworths",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/woolworths",
+    "how": "",
+    "code": "",
+    "id": "woolworths-1",
+    "title": "Woolworths",
+    "placeholder": false
+  },
+  {
+    "retailer": "Aldi",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.aldi.com.au",
+    "how": "",
+    "code": "",
+    "id": "aldi-1",
+    "title": "Aldi",
+    "placeholder": false
+  },
+  {
+    "retailer": "Officeworks",
+    "category": "Education",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.officeworks.com.au",
+    "how": "",
+    "code": "",
+    "id": "officeworks-1",
+    "title": "Officeworks",
+    "placeholder": false
+  },
+  {
+    "retailer": "Dymocks",
+    "category": "Education",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://www.dymocks.com.au",
+    "how": "",
+    "code": "",
+    "id": "dymocks-1",
+    "title": "Dymocks",
+    "placeholder": false
+  },
+  {
+    "retailer": "Qantas",
+    "category": "Travel",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.qantas.com",
+    "how": "",
+    "code": "",
+    "id": "qantas-1",
+    "title": "Qantas",
+    "placeholder": false
+  },
+  {
+    "retailer": "Virgin Australia",
+    "category": "Travel",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.virginaustralia.com",
+    "how": "",
+    "code": "",
+    "id": "virgin-australia-1",
+    "title": "Virgin Australia",
+    "placeholder": false
+  },
+  {
+    "retailer": "Greyhound Australia",
+    "category": "Travel",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.greyhound.com.au",
+    "how": "",
+    "code": "",
+    "id": "greyhound-australia-1",
+    "title": "Greyhound Australia",
+    "placeholder": false
+  },
+  {
+    "retailer": "NSW TrainLink",
+    "category": "Transport",
+    "university": "all",
+    "universityLabel": "",
+    "description": "NSW",
+    "link": "https://transportnsw.info",
+    "how": "",
+    "code": "",
+    "id": "nsw-trainlink-1",
+    "title": "NSW TrainLink",
+    "placeholder": false
+  },
+  {
+    "retailer": "Opal Card",
+    "category": "Transport",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney",
+    "link": "https://www.opal.com.au",
+    "how": "",
+    "code": "",
+    "id": "opal-card-1",
+    "title": "Opal Card",
+    "placeholder": false
+  },
+  {
+    "retailer": "Uber Eats",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/ubereats",
+    "how": "",
+    "code": "",
+    "id": "uber-eats-1",
+    "title": "Uber Eats",
+    "placeholder": false
+  },
+  {
+    "retailer": "Deliveroo",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/deliveroo",
+    "how": "",
+    "code": "",
+    "id": "deliveroo-1",
+    "title": "Deliveroo",
+    "placeholder": false
+  },
+  {
+    "retailer": "Menulog",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/menulog",
+    "how": "",
+    "code": "",
+    "id": "menulog-1",
+    "title": "Menulog",
+    "placeholder": false
+  },
+  {
+    "retailer": "DoorDash",
+    "category": "Food",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/doordash",
+    "how": "",
+    "code": "",
+    "id": "doordash-1",
+    "title": "DoorDash",
+    "placeholder": false
+  },
+  {
+    "retailer": "Netflix",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.netflix.com",
+    "how": "",
+    "code": "",
+    "id": "netflix-1",
+    "title": "Netflix",
+    "placeholder": false
+  },
+  {
+    "retailer": "Disney+",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.disneyplus.com",
+    "how": "",
+    "code": "",
+    "id": "disney-1",
+    "title": "Disney+",
+    "placeholder": false
+  },
+  {
+    "retailer": "Binge",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://binge.com.au",
+    "how": "",
+    "code": "",
+    "id": "binge-1",
+    "title": "Binge",
+    "placeholder": false
+  },
+  {
+    "retailer": "Stan",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.stan.com.au",
+    "how": "",
+    "code": "",
+    "id": "stan-1",
+    "title": "Stan",
+    "placeholder": false
+  },
+  {
+    "retailer": "Kayo Sports",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://kayosports.com.au",
+    "how": "",
+    "code": "",
+    "id": "kayo-sports-1",
+    "title": "Kayo Sports",
+    "placeholder": false
+  },
+  {
+    "retailer": "Paramount+",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.paramountplus.com",
+    "how": "",
+    "code": "",
+    "id": "paramount-1",
+    "title": "Paramount+",
+    "placeholder": false
+  },
+  {
+    "retailer": "Hoyts LUX",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Various Sydney suburbs",
+    "link": "https://www.hoyts.com.au",
+    "how": "",
+    "code": "",
+    "id": "hoyts-lux-1",
+    "title": "Hoyts LUX",
+    "placeholder": false
+  },
+  {
+    "retailer": "Palace Cinemas",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD & Leichhardt",
+    "link": "https://www.palacecinemas.com.au",
+    "how": "",
+    "code": "",
+    "id": "palace-cinemas-1",
+    "title": "Palace Cinemas",
+    "placeholder": false
+  },
+  {
+    "retailer": "Dendy Cinemas",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Newtown (near USYD)",
+    "link": "https://www.dendy.com.au",
+    "how": "",
+    "code": "",
+    "id": "dendy-cinemas-1",
+    "title": "Dendy Cinemas",
+    "placeholder": false
+  },
+  {
+    "retailer": "Ritz Cinema",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Randwick (near UNSW)",
+    "link": "https://www.ritzcinema.com.au",
+    "how": "",
+    "code": "",
+    "id": "ritz-cinema-1",
+    "title": "Ritz Cinema",
+    "placeholder": false
+  },
+  {
+    "retailer": "Event Cinemas Gold Class",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Various Sydney suburbs",
+    "link": "https://www.eventcinemas.com.au",
+    "how": "",
+    "code": "",
+    "id": "event-cinemas-gold-class-1",
+    "title": "Event Cinemas Gold Class",
+    "placeholder": false
+  },
+  {
+    "retailer": "Sydney Festival",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://www.sydneyfestival.org.au",
+    "how": "",
+    "code": "",
+    "id": "sydney-festival-1",
+    "title": "Sydney Festival",
+    "placeholder": false
+  },
+  {
+    "retailer": "Vivid Sydney",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://www.vividsydney.com",
+    "how": "",
+    "code": "",
+    "id": "vivid-sydney-1",
+    "title": "Vivid Sydney",
+    "placeholder": false
+  },
+  {
+    "retailer": "Sydney Fringe Festival",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Newtown & Inner West",
+    "link": "https://www.sydneyfringe.com",
+    "how": "",
+    "code": "",
+    "id": "sydney-fringe-festival-1",
+    "title": "Sydney Fringe Festival",
+    "placeholder": false
+  },
+  {
+    "retailer": "Mardi Gras",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://www.mardigras.org.au",
+    "how": "",
+    "code": "",
+    "id": "mardi-gras-1",
+    "title": "Mardi Gras",
+    "placeholder": false
+  },
+  {
+    "retailer": "Splendour in the Grass",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Byron Bay (popular with Sydney students)",
+    "link": "https://splendourinthegrass.com",
+    "how": "",
+    "code": "",
+    "id": "splendour-in-the-grass-1",
+    "title": "Splendour in the Grass",
+    "placeholder": false
+  },
+  {
+    "retailer": "Groovin the Moo",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Maitland (NSW)",
+    "link": "https://www.gtm.net.au",
+    "how": "",
+    "code": "",
+    "id": "groovin-the-moo-1",
+    "title": "Groovin the Moo",
+    "placeholder": false
+  },
+  {
+    "retailer": "Laneway Festival",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://lanewayfestival.com",
+    "how": "",
+    "code": "",
+    "id": "laneway-festival-1",
+    "title": "Laneway Festival",
+    "placeholder": false
+  },
+  {
+    "retailer": "Field Day",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://www.fieldday.com.au",
+    "how": "",
+    "code": "",
+    "id": "field-day-1",
+    "title": "Field Day",
+    "placeholder": false
+  },
+  {
+    "retailer": "Lost Paradise",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Central Coast NSW",
+    "link": "https://lostparadise.com.au",
+    "how": "",
+    "code": "",
+    "id": "lost-paradise-1",
+    "title": "Lost Paradise",
+    "placeholder": false
+  },
+  {
+    "retailer": "Good Things Festival",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney Olympic Park",
+    "link": "https://goodthingsfestival.com.au",
+    "how": "",
+    "code": "",
+    "id": "good-things-festival-1",
+    "title": "Good Things Festival",
+    "placeholder": false
+  },
+  {
+    "retailer": "Sydney Royal Easter Show",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney Olympic Park",
+    "link": "https://www.eastershow.com.au",
+    "how": "",
+    "code": "",
+    "id": "sydney-royal-easter-show-1",
+    "title": "Sydney Royal Easter Show",
+    "placeholder": false
+  },
+  {
+    "retailer": "Sydney Writers’ Festival",
+    "category": "Education/Arts",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://www.swf.org.au",
+    "how": "",
+    "code": "",
+    "id": "sydney-writers-festival-1",
+    "title": "Sydney Writers’ Festival",
+    "placeholder": false
+  },
+  {
+    "retailer": "Sydney Film Festival",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://www.sff.org.au",
+    "how": "",
+    "code": "",
+    "id": "sydney-film-festival-1",
+    "title": "Sydney Film Festival",
+    "placeholder": false
+  },
+  {
+    "retailer": "Sydney Comedy Festival",
+    "category": "Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://www.sydneycomedyfest.com.au",
+    "how": "",
+    "code": "",
+    "id": "sydney-comedy-festival-1",
+    "title": "Sydney Comedy Festival",
+    "placeholder": false
+  },
+  {
+    "retailer": "Sydney Science Festival",
+    "category": "Education",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://www.sydneyscience.com.au",
+    "how": "",
+    "code": "",
+    "id": "sydney-science-festival-1",
+    "title": "Sydney Science Festival",
+    "placeholder": false
+  },
+  {
+    "retailer": "Sydney Contemporary",
+    "category": "Arts",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Carriageworks (near USYD)",
+    "link": "https://sydneycontemporary.com.au",
+    "how": "",
+    "code": "",
+    "id": "sydney-contemporary-1",
+    "title": "Sydney Contemporary",
+    "placeholder": false
+  },
+  {
+    "retailer": "Carriageworks",
+    "category": "Arts",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Eveleigh (near USYD)",
+    "link": "https://carriageworks.com.au",
+    "how": "",
+    "code": "",
+    "id": "carriageworks-1",
+    "title": "Carriageworks",
+    "placeholder": false
+  },
+  {
+    "retailer": "White Rabbit Gallery",
+    "category": "Arts",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Chippendale (near UTS)",
+    "link": "https://www.whiterabbitcollection.org",
+    "how": "",
+    "code": "",
+    "id": "white-rabbit-gallery-1",
+    "title": "White Rabbit Gallery",
+    "placeholder": false
+  },
+  {
+    "retailer": "4 Pines Brewery",
+    "category": "Food/Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Manly & Surry Hills",
+    "link": "https://4pinesbeer.com.au",
+    "how": "",
+    "code": "",
+    "id": "4-pines-brewery-1",
+    "title": "4 Pines Brewery",
+    "placeholder": false
+  },
+  {
+    "retailer": "Young Henrys Brewery",
+    "category": "Food/Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Newtown (near USYD)",
+    "link": "https://younghenrys.com",
+    "how": "",
+    "code": "",
+    "id": "young-henrys-brewery-1",
+    "title": "Young Henrys Brewery",
+    "placeholder": false
+  },
+  {
+    "retailer": "Batch Brewing Co",
+    "category": "Food/Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Marrickville",
+    "link": "https://batchbrewingco.com.au",
+    "how": "",
+    "code": "",
+    "id": "batch-brewing-co-1",
+    "title": "Batch Brewing Co",
+    "placeholder": false
+  },
+  {
+    "retailer": "Grifter Brewing Co",
+    "category": "Food/Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Marrickville",
+    "link": "https://thegrifter.com.au",
+    "how": "",
+    "code": "",
+    "id": "grifter-brewing-co-1",
+    "title": "Grifter Brewing Co",
+    "placeholder": false
+  },
+  {
+    "retailer": "Merivale Venues",
+    "category": "Food/Entertainment",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Various Sydney suburbs",
+    "link": "https://merivale.com",
+    "how": "",
+    "code": "",
+    "id": "merivale-venues-1",
+    "title": "Merivale Venues",
+    "placeholder": false
+  },
+  {
+    "retailer": "IKEA",
+    "category": "Home",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Tempe & Rhodes",
+    "link": "https://www.ikea.com/au",
+    "how": "",
+    "code": "",
+    "id": "ikea-1",
+    "title": "IKEA",
+    "placeholder": false
+  },
+  {
+    "retailer": "Freedom Furniture",
+    "category": "Home",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.freedom.com.au",
+    "how": "",
+    "code": "",
+    "id": "freedom-furniture-1",
+    "title": "Freedom Furniture",
+    "placeholder": false
+  },
+  {
+    "retailer": "Fantastic Furniture",
+    "category": "Home",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.fantasticfurniture.com.au",
+    "how": "",
+    "code": "",
+    "id": "fantastic-furniture-1",
+    "title": "Fantastic Furniture",
+    "placeholder": false
+  },
+  {
+    "retailer": "Harvey Norman",
+    "category": "Mixed",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.harveynorman.com.au",
+    "how": "",
+    "code": "",
+    "id": "harvey-norman-1",
+    "title": "Harvey Norman",
+    "placeholder": false
+  },
+  {
+    "retailer": "Bunnings Warehouse",
+    "category": "Home",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.bunnings.com.au",
+    "how": "",
+    "code": "",
+    "id": "bunnings-warehouse-1",
+    "title": "Bunnings Warehouse",
+    "placeholder": false
+  },
+  {
+    "retailer": "Rebel Sport",
+    "category": "Sport",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/rebel-sport",
+    "how": "",
+    "code": "",
+    "id": "rebel-sport-1",
+    "title": "Rebel Sport",
+    "placeholder": false
+  },
+  {
+    "retailer": "JD Sports",
+    "category": "Fashion/Sport",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.jdsports.com.au",
+    "how": "",
+    "code": "",
+    "id": "jd-sports-1",
+    "title": "JD Sports",
+    "placeholder": false
+  },
+  {
+    "retailer": "Foot Locker",
+    "category": "Fashion/Sport",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/footlocker",
+    "how": "",
+    "code": "",
+    "id": "foot-locker-1",
+    "title": "Foot Locker",
+    "placeholder": false
+  },
+  {
+    "retailer": "Platypus Shoes",
+    "category": "Fashion",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/platypus",
+    "how": "",
+    "code": "",
+    "id": "platypus-shoes-1",
+    "title": "Platypus Shoes",
+    "placeholder": false
+  },
+  {
+    "retailer": "Hype DC",
+    "category": "Fashion",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/hypedc",
+    "how": "",
+    "code": "",
+    "id": "hype-dc-1",
+    "title": "Hype DC",
+    "placeholder": false
+  },
+  {
+    "retailer": "General Pants Co",
+    "category": "Fashion",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.generalpants.com",
+    "how": "",
+    "code": "",
+    "id": "general-pants-co-1",
+    "title": "General Pants Co",
+    "placeholder": false
+  },
+  {
+    "retailer": "Glue Store",
+    "category": "Fashion",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.gluestore.com.au",
+    "how": "",
+    "code": "",
+    "id": "glue-store-1",
+    "title": "Glue Store",
+    "placeholder": false
+  },
+  {
+    "retailer": "Universal Store",
+    "category": "Fashion",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/universalstore",
+    "how": "",
+    "code": "",
+    "id": "universal-store-1",
+    "title": "Universal Store",
+    "placeholder": false
+  },
+  {
+    "retailer": "Cotton On Body",
+    "category": "Fashion",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://cottonon.com/AU",
+    "how": "",
+    "code": "",
+    "id": "cotton-on-body-1",
+    "title": "Cotton On Body",
+    "placeholder": false
+  },
+  {
+    "retailer": "Typo",
+    "category": "Stationery",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://cottonon.com/AU/typo",
+    "how": "",
+    "code": "",
+    "id": "typo-1",
+    "title": "Typo",
+    "placeholder": false
+  },
+  {
+    "retailer": "Smiggle",
+    "category": "Stationery",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://studentedge.org/au/deals/smiggle",
+    "how": "",
+    "code": "",
+    "id": "smiggle-1",
+    "title": "Smiggle",
+    "placeholder": false
+  },
+  {
+    "retailer": "Lorna Jane",
+    "category": "Fashion/Fitness",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.lornajane.com.au",
+    "how": "",
+    "code": "",
+    "id": "lorna-jane-1",
+    "title": "Lorna Jane",
+    "placeholder": false
+  },
+  {
+    "retailer": "Lululemon",
+    "category": "Fashion/Fitness",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD & Chatswood",
+    "link": "https://shop.lululemon.com",
+    "how": "",
+    "code": "",
+    "id": "lululemon-1",
+    "title": "Lululemon",
+    "placeholder": false
+  },
+  {
+    "retailer": "Aesop",
+    "category": "Beauty",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://studentedge.org/au/deals/aesop",
+    "how": "",
+    "code": "",
+    "id": "aesop-1",
+    "title": "Aesop",
+    "placeholder": false
+  },
+  {
+    "retailer": "Mecca",
+    "category": "Beauty",
+    "university": "all",
+    "universityLabel": "",
+    "description": "Sydney CBD",
+    "link": "https://www.mecca.com.au",
+    "how": "",
+    "code": "",
+    "id": "mecca-1",
+    "title": "Mecca",
+    "placeholder": false
+  },
+  {
+    "retailer": "Sephora",
+    "category": "Beauty",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.sephora.com.au",
+    "how": "",
+    "code": "",
+    "id": "sephora-1",
+    "title": "Sephora",
+    "placeholder": false
+  },
+  {
+    "retailer": "Priceline",
+    "category": "Beauty",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.priceline.com.au",
+    "how": "",
+    "code": "",
+    "id": "priceline-1",
+    "title": "Priceline",
+    "placeholder": false
+  },
+  {
+    "retailer": "Chemist Warehouse",
+    "category": "Health",
+    "university": "all",
+    "universityLabel": "",
+    "description": "National",
+    "link": "https://www.chemistwarehouse.com.au",
+    "how": "",
+    "code": "",
+    "id": "chemist-warehouse-1",
+    "title": "Chemist Warehouse",
+    "placeholder": false
   }
 ]
