@@ -47,6 +47,9 @@
   {"retailer":"Student Co-living Discount","category":"housing","university":"unsw","universityLabel":"UNSW","description":"Reduced deposit for student co-living spaces near UNSW.","link":"https://example.com/coliving","how":"Apply with student email"},
   {"retailer":"Music Lessons — Student Rate","category":"services","university":"all","universityLabel":"All Sydney unis","description":"Discounted private music lessons for students.","link":"https://example.com/music-lessons","how":"Book with student email"},
   {"retailer":"Discounted 3D Printing","category":"services","university":"uts","universityLabel":"UTS","description":"Student 3D printing service at reduced rates for project work.","link":"https://example.com/3d-printing","how":"Upload student ID when ordering"},
-  {"retailer":"Student Gym — Wollongong Climb","category":"fitness","university":"uow","universityLabel":"UOW","description":"Discounted student passes for climbing walls and classes.","link":"https://example.com/wollongong-climb","how":"Show student ID"}
+  {"retailer":"Student Gym — Wollongong Climb","category":"fitness","university":"uow","universityLabel":"UOW","description":"Discounted student passes for climbing walls and classes.","link":"https://example.com/wollongong-climb","how":"Show student ID"},
+  {"retailer":"GitHub Student Developer Pack","category":"software","university":"all","universityLabel":"All Sydney unis","description":"Free and discounted developer tools for students including cloud credits, CI/CD, and more — verify with your student email to claim the pack.","link":"https://education.github.com/pack","how":"Verify using GitHub Education (student email or ID)"},
+  {"retailer":"Opal Concession & Student Info","category":"transport","university":"all","universityLabel":"All Sydney unis","description":"Information on Opal concession fares and student eligibility — check Transport NSW for current rules and how to apply for concession or student options.","link":"https://transportnsw.info/tickets-opal/opal-card-concessions","how":"Check eligibility on Transport NSW and follow their application instructions"}
 ]
+
 

@@ -87,4 +87,20 @@ What I can do next (pick any)
 - Add GA4 Measurement ID for you if you paste it here.
 - Expand `deals.json` further or migrate the list to Airtable and wire a serverless proxy so non-dev edits are possible.
 
+Quick ad copy & UTM examples (ready to use)
+
+- Landing URL (main): https://student-discounts-sydney.vercel.app/
+
+- Example UTM-tagged URLs (use these in ad platforms or shared posts to track source):
+  - Instagram test (IG feed): https://student-discounts-sydney.vercel.app/?utm_source=instagram&utm_medium=cpc&utm_campaign=ig_test1
+  - TikTok test (video): https://student-discounts-sydney.vercel.app/?utm_source=tiktok&utm_medium=cpc&utm_campaign=tiktok_test1
+  - Campus groups (organic): https://student-discounts-sydney.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=campus_posts
+
+- Short ad copy variations (use with the URLs above):
+  1) "Sydney students — save on coffee, tech, fitness & more. 40+ verified student discounts for Uni of Sydney, UNSW, UTS & UOW. Join the weekly list free → [UTM link]"
+  2) "Student deals near you — free list of verified discounts across Sydney unis. Get our weekly email and never miss a campus deal. [UTM link]"
+  3) "Moving to uni? Save on food, furniture, and study tools — check verified student discounts for Sydney campuses. Join now: [UTM link]"
+
+Use the UTM links to run initial $40–$80 ad tests and capture which channels convert best (thank-you page captures conversions).
+
 If you want me to make one of the changes now, paste the required secret/embed (Formspree action or MailerLite embed, or GA4 Measurement ID) and I'll edit the files and show the commit + push commands.
