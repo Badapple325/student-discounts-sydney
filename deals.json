@@ -11,7 +11,7 @@
     "id": "local-campus-cafe-1",
     "title": "Apple",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/apple.com?size=128"
+    "logo": "/assets/logos/local-campus-cafe-1.png"
   },
   {
     "retailer": "Spotify",
@@ -25,7 +25,7 @@
     "id": "inner-west-coffee-1",
     "title": "Spotify",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/spotify.com?size=128"
+    "logo": "/assets/logos/inner-west-coffee-1.png"
   },
   {
     "retailer": "Adobe Creative Cloud",
@@ -52,7 +52,7 @@
     "id": "books-more-1",
     "title": "Microsoft",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/microsoft.com?size=128"
+    "logo": "/assets/logos/books-more-1.png"
   },
   {
     "retailer": "The Iconic",
@@ -66,7 +66,7 @@
     "id": "studenttech-store-1",
     "title": "The Iconic",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/theiconic.com.au?size=128"
+    "logo": "/assets/logos/studenttech-store-1.png"
   },
   {
     "retailer": "ASOS",
@@ -80,7 +80,7 @@
     "id": "fitness-studio-newtown-1",
     "title": "ASOS",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/asos.com?size=128"
+    "logo": "/assets/logos/fitness-studio-newtown-1.png"
   },
   {
     "retailer": "Student Edge",
@@ -94,7 +94,7 @@
     "id": "ramen-house-1",
     "title": "Student Edge",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/ramen-house-1.png"
   },
   {
     "retailer": "Domino's",
@@ -108,7 +108,7 @@
     "id": "clothing-outlet-1",
     "title": "Domino's",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/clothing-outlet-1.png"
   },
   {
     "retailer": "Uber",
@@ -122,7 +122,7 @@
     "id": "local-taxi-app-1",
     "title": "Uber",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/local-taxi-app-1.png"
   },
   {
     "retailer": "STA Travel",
@@ -136,7 +136,7 @@
     "id": "cinema-night-1",
     "title": "STA Travel",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/statravel.com.au?size=128"
+    "logo": "/assets/logos/cinema-night-1.png"
   },
   {
     "retailer": "Amazon Prime",
@@ -150,7 +150,7 @@
     "id": "language-course-discount-1",
     "title": "Amazon Prime",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/amazon.com.au?size=128"
+    "logo": "/assets/logos/language-course-discount-1.png"
   },
   {
     "retailer": "Samsung",
@@ -164,7 +164,7 @@
     "id": "co-working-day-pass-1",
     "title": "Samsung",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/samsung.com?size=128"
+    "logo": "/assets/logos/co-working-day-pass-1.png"
   },
   {
     "retailer": "JB Hi-Fi",
@@ -178,7 +178,7 @@
     "id": "bike-shop-1",
     "title": "JB Hi-Fi",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/jbhifi.com.au?size=128"
+    "logo": "/assets/logos/bike-shop-1.png"
   },
   {
     "retailer": "Optus",
@@ -192,7 +192,7 @@
     "id": "photo-prints-1",
     "title": "Optus",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/optus.com.au?size=128"
+    "logo": "/assets/logos/photo-prints-1.png"
   },
   {
     "retailer": "Vodafone",
@@ -206,7 +206,7 @@
     "id": "coffee-chain-x-1",
     "title": "Vodafone",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/vodafone.com.au?size=128"
+    "logo": "/assets/logos/coffee-chain-x-1.png"
   },
   {
     "retailer": "Nike",
@@ -220,7 +220,7 @@
     "id": "study-software-pro-1",
     "title": "Nike",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/nike.com?size=128"
+    "logo": "/assets/logos/study-software-pro-1.png"
   },
   {
     "retailer": "Adidas",
@@ -234,7 +234,7 @@
     "id": "bike-share-promo-1",
     "title": "Adidas",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/adidas.com.au?size=128"
+    "logo": "/assets/logos/bike-share-promo-1.png"
   },
   {
     "retailer": "Cotton On",
@@ -248,7 +248,7 @@
     "id": "local-pizzeria-1",
     "title": "Cotton On",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/cottonon.com?size=128"
+    "logo": "/assets/logos/local-pizzeria-1.png"
   },
   {
     "retailer": "Grill’d",
@@ -262,7 +262,7 @@
     "id": "tech-repair-student-rate-1",
     "title": "Grill’d",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/tech-repair-student-rate-1.png"
   },
   {
     "retailer": "Hoyts",
@@ -276,7 +276,7 @@
     "id": "campus-barber-1",
     "title": "Hoyts",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/hoyts.com.au?size=128"
+    "logo": "/assets/logos/campus-barber-1.png"
   },
   {
     "retailer": "Event Cinemas",
@@ -290,7 +290,7 @@
     "id": "study-cafe-glebe-1",
     "title": "Event Cinemas",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/eventcinemas.com.au?size=128"
+    "logo": "/assets/logos/study-cafe-glebe-1.png"
   },
   {
     "retailer": "Canva",
@@ -304,7 +304,7 @@
     "id": "stationery-express-1",
     "title": "Canva",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/canva.com?size=128"
+    "logo": "/assets/logos/stationery-express-1.png"
   },
   {
     "retailer": "Notion",
@@ -318,7 +318,7 @@
     "id": "coding-bootcamp-discount-1",
     "title": "Notion",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/notion.so?size=128"
+    "logo": "/assets/logos/coding-bootcamp-discount-1.png"
   },
   {
     "retailer": "Autodesk",
@@ -332,7 +332,7 @@
     "id": "vintage-clothing-lane-1",
     "title": "Autodesk",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/autodesk.com?size=128"
+    "logo": "/assets/logos/vintage-clothing-lane-1.png"
   },
   {
     "retailer": "Boost Juice",
@@ -346,7 +346,7 @@
     "id": "photo-studio-student-rate-1",
     "title": "Boost Juice",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/photo-studio-student-rate-1.png"
   },
   {
     "retailer": "Oporto",
@@ -360,7 +360,7 @@
     "id": "boba-spot-1",
     "title": "Oporto",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/boba-spot-1.png"
   },
   {
     "retailer": "Mad Mex",
@@ -374,7 +374,7 @@
     "id": "laptop-accessories-store-1",
     "title": "Mad Mex",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/madmex.com.au?size=128"
+    "logo": "/assets/logos/laptop-accessories-store-1.png"
   },
   {
     "retailer": "Guzman y Gomez",
@@ -388,7 +388,7 @@
     "id": "yoga-studio-student-mat-class-1",
     "title": "Guzman y Gomez",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/guzmanygomez.com.au?size=128"
+    "logo": "/assets/logos/yoga-studio-student-mat-class-1.png"
   },
   {
     "retailer": "Fitness First",
@@ -402,7 +402,7 @@
     "id": "public-transport-card-top-up-offer-1",
     "title": "Fitness First",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/fitnessfirst.com.au?size=128"
+    "logo": "/assets/logos/public-transport-card-top-up-offer-1.png"
   },
   {
     "retailer": "Anytime Fitness",
@@ -416,7 +416,7 @@
     "id": "cheap-textbook-resale-1",
     "title": "Anytime Fitness",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/anytimefitness.com.au?size=128"
+    "logo": "/assets/logos/cheap-textbook-resale-1.png"
   },
   {
     "retailer": "Sydney Opera House",
@@ -430,7 +430,7 @@
     "id": "student-meal-box-1",
     "title": "Sydney Opera House",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/sydneyoperahouse.com?size=128"
+    "logo": "/assets/logos/student-meal-box-1.png"
   },
   {
     "retailer": "Art Gallery of NSW",
@@ -444,7 +444,7 @@
     "id": "busker-s-music-shop-1",
     "title": "Art Gallery of NSW",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/artgallery.nsw.gov.au?size=128"
+    "logo": "/assets/logos/busker-s-music-shop-1.png"
   },
   {
     "retailer": "Museum of Contemporary Art",
@@ -458,7 +458,7 @@
     "id": "campus-safe-ride-program-1",
     "title": "Museum of Contemporary Art",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/mca.com.au?size=128"
+    "logo": "/assets/logos/campus-safe-ride-program-1.png"
   },
   {
     "retailer": "State Library of NSW",
@@ -472,7 +472,7 @@
     "id": "uow-campus-cafe-1",
     "title": "State Library of NSW",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/sl.nsw.gov.au?size=128"
+    "logo": "/assets/logos/uow-campus-cafe-1.png"
   },
   {
     "retailer": "UNSW Bookshop",
@@ -486,7 +486,7 @@
     "id": "wollongong-gym-student-rate-1",
     "title": "UNSW Bookshop",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/bookshop.unsw.edu.au?size=128"
+    "logo": "/assets/logos/wollongong-gym-student-rate-1.png"
   },
   {
     "retailer": "UTS Co-op Bookshop",
@@ -500,7 +500,7 @@
     "id": "uow-bookshop-discount-1",
     "title": "UTS Co-op Bookshop",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/coop.com.au?size=128"
+    "logo": "/assets/logos/uow-bookshop-discount-1.png"
   },
   {
     "retailer": "Macquarie Uni Sport",
@@ -514,7 +514,7 @@
     "id": "wollongong-cinema-students-1",
     "title": "Macquarie Uni Sport",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/mq.edu.au?size=128"
+    "logo": "/assets/logos/wollongong-cinema-students-1.png"
   },
   {
     "retailer": "UOW Pulse",
@@ -528,7 +528,7 @@
     "id": "uow-bus-discount-1",
     "title": "UOW Pulse",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/pulse.uow.edu.au?size=128"
+    "logo": "/assets/logos/uow-bus-discount-1.png"
   },
   {
     "retailer": "Western Sydney Uni Village",
@@ -542,7 +542,7 @@
     "id": "wollongong-bike-repair-1",
     "title": "Western Sydney Uni Village",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/westernsydney.edu.au?size=128"
+    "logo": "/assets/logos/wollongong-bike-repair-1.png"
   },
   {
     "retailer": "Notre Dame Uni Café",
@@ -556,7 +556,7 @@
     "id": "uow-language-workshops-1",
     "title": "Notre Dame Uni Café",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/notredame.edu.au?size=128"
+    "logo": "/assets/logos/uow-language-workshops-1.png"
   },
   {
     "retailer": "Sydney Uni Sport & Fitness",
@@ -570,7 +570,7 @@
     "id": "furniture-hire-student-pack-1",
     "title": "Sydney Uni Sport & Fitness",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/susf.com.au?size=128"
+    "logo": "/assets/logos/furniture-hire-student-pack-1.png"
   },
   {
     "retailer": "UNSW Roundhouse",
@@ -584,7 +584,7 @@
     "id": "student-storage-promo-1",
     "title": "UNSW Roundhouse",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/arc.unsw.edu.au?size=128"
+    "logo": "/assets/logos/student-storage-promo-1.png"
   },
   {
     "retailer": "Coogee Pavilion",
@@ -598,7 +598,7 @@
     "id": "online-tutoring-discount-1",
     "title": "Coogee Pavilion",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/merivale.com?size=128"
+    "logo": "/assets/logos/online-tutoring-discount-1.png"
   },
   {
     "retailer": "The Lansdowne Hotel",
@@ -612,7 +612,7 @@
     "id": "student-phone-plan-discount-1",
     "title": "The Lansdowne Hotel",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/thelansdownehotel.com.au?size=128"
+    "logo": "/assets/logos/student-phone-plan-discount-1.png"
   },
   {
     "retailer": "The Soda Factory",
@@ -626,7 +626,7 @@
     "id": "art-supplies-student-discount-1",
     "title": "The Soda Factory",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/sodafactory.com.au?size=128"
+    "logo": "/assets/logos/art-supplies-student-discount-1.png"
   },
   {
     "retailer": "The Underground Bar",
@@ -640,7 +640,7 @@
     "id": "student-co-living-discount-1",
     "title": "The Underground Bar",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/activateuts.com.au?size=128"
+    "logo": "/assets/logos/student-co-living-discount-1.png"
   },
   {
     "retailer": "The Roundhouse Bar",
@@ -654,7 +654,7 @@
     "id": "music-lessons-student-rate-1",
     "title": "The Roundhouse Bar",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/arc.unsw.edu.au?size=128"
+    "logo": "/assets/logos/music-lessons-student-rate-1.png"
   },
   {
     "retailer": "UOW UniBar",
@@ -668,7 +668,7 @@
     "id": "discounted-3d-printing-1",
     "title": "UOW UniBar",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/unibar.uow.edu.au?size=128"
+    "logo": "/assets/logos/discounted-3d-printing-1.png"
   },
   {
     "retailer": "Western Sydney Uni Fitness",
@@ -682,7 +682,7 @@
     "id": "student-gym-wollongong-climb-1",
     "title": "Western Sydney Uni Fitness",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/westernsydney.edu.au?size=128"
+    "logo": "/assets/logos/student-gym-wollongong-climb-1.png"
   },
   {
     "retailer": "GitHub Student Developer Pack",
@@ -696,7 +696,7 @@
     "id": "github-student-developer-pack",
     "title": "GitHub Student Developer Pack",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/education.github.com?size=128"
+    "logo": "/assets/logos/github-student-developer-pack.png"
   },
   {
     "retailer": "Opal Concession & Student Info",
@@ -710,7 +710,7 @@
     "id": "opal-concession-student-info",
     "title": "Opal Concession & Student Info",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/transportnsw.info?size=128"
+    "logo": "/assets/logos/opal-concession-student-info.png"
   },
   {
     "title": "Local Campus Cafe",
@@ -1374,7 +1374,7 @@
     "id": "manning-bar-1",
     "title": "Manning Bar",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/usu.edu.au?size=128"
+    "logo": "/assets/logos/manning-bar-1.png"
   },
   {
     "retailer": "The Loft UTS",
@@ -1388,7 +1388,7 @@
     "id": "the-loft-uts-1",
     "title": "The Loft UTS",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/activateuts.com.au?size=128"
+    "logo": "/assets/logos/the-loft-uts-1.png"
   },
   {
     "retailer": "Macquarie Centre",
@@ -1402,7 +1402,7 @@
     "id": "macquarie-centre-1",
     "title": "Macquarie Centre",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/macquariecentre.com.au?size=128"
+    "logo": "/assets/logos/macquarie-centre-1.png"
   },
   {
     "retailer": "Maccas (McDonald’s)",
@@ -1416,7 +1416,7 @@
     "id": "maccas-mcdonalds-1",
     "title": "Maccas (McDonald’s)",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/maccas-mcdonalds-1.png"
   },
   {
     "retailer": "Betty’s Burgers",
@@ -1430,7 +1430,7 @@
     "id": "bettys-burgers-1",
     "title": "Betty’s Burgers",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/bettysburgers.com.au?size=128"
+    "logo": "/assets/logos/bettys-burgers-1.png"
   },
   {
     "retailer": "Bondi Icebergs",
@@ -1444,7 +1444,7 @@
     "id": "bondi-icebergs-1",
     "title": "Bondi Icebergs",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/icebergs.com.au?size=128"
+    "logo": "/assets/logos/bondi-icebergs-1.png"
   },
   {
     "retailer": "Sydney Tower Eye",
@@ -1458,7 +1458,7 @@
     "id": "sydney-tower-eye-1",
     "title": "Sydney Tower Eye",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/sydneytowereye.com.au?size=128"
+    "logo": "/assets/logos/sydney-tower-eye-1.png"
   },
   {
     "retailer": "Taronga Zoo",
@@ -1472,7 +1472,7 @@
     "id": "taronga-zoo-1",
     "title": "Taronga Zoo",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/taronga.org.au?size=128"
+    "logo": "/assets/logos/taronga-zoo-1.png"
   },
   {
     "retailer": "Powerhouse Museum",
@@ -1486,7 +1486,7 @@
     "id": "powerhouse-museum-1",
     "title": "Powerhouse Museum",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/maas.museum?size=128"
+    "logo": "/assets/logos/powerhouse-museum-1.png"
   },
   {
     "retailer": "Australian Museum",
@@ -1500,7 +1500,7 @@
     "id": "australian-museum-1",
     "title": "Australian Museum",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/australian.museum?size=128"
+    "logo": "/assets/logos/australian-museum-1.png"
   },
   {
     "retailer": "SEA LIFE Sydney Aquarium",
@@ -1514,7 +1514,7 @@
     "id": "sea-life-sydney-aquarium-1",
     "title": "SEA LIFE Sydney Aquarium",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/sydneyaquarium.com.au?size=128"
+    "logo": "/assets/logos/sea-life-sydney-aquarium-1.png"
   },
   {
     "retailer": "Wild Life Sydney Zoo",
@@ -1528,7 +1528,7 @@
     "id": "wild-life-sydney-zoo-1",
     "title": "Wild Life Sydney Zoo",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/wildlifesydney.com.au?size=128"
+    "logo": "/assets/logos/wild-life-sydney-zoo-1.png"
   },
   {
     "retailer": "Madame Tussauds Sydney",
@@ -1542,7 +1542,7 @@
     "id": "madame-tussauds-sydney-1",
     "title": "Madame Tussauds Sydney",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/madametussauds.com?size=128"
+    "logo": "/assets/logos/madame-tussauds-sydney-1.png"
   },
   {
     "retailer": "Luna Park Sydney",
@@ -1556,7 +1556,7 @@
     "id": "luna-park-sydney-1",
     "title": "Luna Park Sydney",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/lunaparksydney.com?size=128"
+    "logo": "/assets/logos/luna-park-sydney-1.png"
   },
   {
     "retailer": "Darling Quarter Dining",
@@ -1570,7 +1570,7 @@
     "id": "darling-quarter-dining-1",
     "title": "Darling Quarter Dining",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/darlingquarter.com?size=128"
+    "logo": "/assets/logos/darling-quarter-dining-1.png"
   },
   {
     "retailer": "Pancakes on the Rocks",
@@ -1584,7 +1584,7 @@
     "id": "pancakes-on-the-rocks-1",
     "title": "Pancakes on the Rocks",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/pancakesontherocks.com.au?size=128"
+    "logo": "/assets/logos/pancakes-on-the-rocks-1.png"
   },
   {
     "retailer": "Starbucks",
@@ -1598,7 +1598,7 @@
     "id": "starbucks-1",
     "title": "Starbucks",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/starbucks-1.png"
   },
   {
     "retailer": "Gloria Jean’s",
@@ -1612,7 +1612,7 @@
     "id": "gloria-jeans-1",
     "title": "Gloria Jean’s",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/gloria-jeans-1.png"
   },
   {
     "retailer": "Chatime",
@@ -1626,7 +1626,7 @@
     "id": "chatime-1",
     "title": "Chatime",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/chatime-1.png"
   },
   {
     "retailer": "Top Juice",
@@ -1640,7 +1640,7 @@
     "id": "top-juice-1",
     "title": "Top Juice",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/top-juice-1.png"
   },
   {
     "retailer": "Subway",
@@ -1654,7 +1654,7 @@
     "id": "subway-1",
     "title": "Subway",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/subway-1.png"
   },
   {
     "retailer": "KFC",
@@ -1668,7 +1668,7 @@
     "id": "kfc-1",
     "title": "KFC",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/kfc-1.png"
   },
   {
     "retailer": "Hungry Jack’s",
@@ -1682,7 +1682,7 @@
     "id": "hungry-jacks-1",
     "title": "Hungry Jack’s",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/hungry-jacks-1.png"
   },
   {
     "retailer": "7-Eleven",
@@ -1696,7 +1696,7 @@
     "id": "7-eleven-1",
     "title": "7-Eleven",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/7-eleven-1.png"
   },
   {
     "retailer": "Coles",
@@ -1710,7 +1710,7 @@
     "id": "coles-1",
     "title": "Coles",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/coles-1.png"
   },
   {
     "retailer": "Woolworths",
@@ -1724,7 +1724,7 @@
     "id": "woolworths-1",
     "title": "Woolworths",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/woolworths-1.png"
   },
   {
     "retailer": "Aldi",
@@ -1738,7 +1738,7 @@
     "id": "aldi-1",
     "title": "Aldi",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/aldi.com.au?size=128"
+    "logo": "/assets/logos/aldi-1.png"
   },
   {
     "retailer": "Officeworks",
@@ -1752,7 +1752,7 @@
     "id": "officeworks-1",
     "title": "Officeworks",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/officeworks.com.au?size=128"
+    "logo": "/assets/logos/officeworks-1.png"
   },
   {
     "retailer": "Dymocks",
@@ -1766,7 +1766,7 @@
     "id": "dymocks-1",
     "title": "Dymocks",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/dymocks.com.au?size=128"
+    "logo": "/assets/logos/dymocks-1.png"
   },
   {
     "retailer": "Qantas",
@@ -1780,7 +1780,7 @@
     "id": "qantas-1",
     "title": "Qantas",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/qantas.com?size=128"
+    "logo": "/assets/logos/qantas-1.png"
   },
   {
     "retailer": "Virgin Australia",
@@ -1794,7 +1794,7 @@
     "id": "virgin-australia-1",
     "title": "Virgin Australia",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/virginaustralia.com?size=128"
+    "logo": "/assets/logos/virgin-australia-1.png"
   },
   {
     "retailer": "Greyhound Australia",
@@ -1808,7 +1808,7 @@
     "id": "greyhound-australia-1",
     "title": "Greyhound Australia",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/greyhound.com.au?size=128"
+    "logo": "/assets/logos/greyhound-australia-1.png"
   },
   {
     "retailer": "NSW TrainLink",
@@ -1822,7 +1822,7 @@
     "id": "nsw-trainlink-1",
     "title": "NSW TrainLink",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/transportnsw.info?size=128"
+    "logo": "/assets/logos/nsw-trainlink-1.png"
   },
   {
     "retailer": "Opal Card",
@@ -1836,7 +1836,7 @@
     "id": "opal-card-1",
     "title": "Opal Card",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/opal.com.au?size=128"
+    "logo": "/assets/logos/opal-card-1.png"
   },
   {
     "retailer": "Uber Eats",
@@ -1850,7 +1850,7 @@
     "id": "uber-eats-1",
     "title": "Uber Eats",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/uber-eats-1.png"
   },
   {
     "retailer": "Deliveroo",
@@ -1864,7 +1864,7 @@
     "id": "deliveroo-1",
     "title": "Deliveroo",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/deliveroo-1.png"
   },
   {
     "retailer": "Menulog",
@@ -1878,7 +1878,7 @@
     "id": "menulog-1",
     "title": "Menulog",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/menulog-1.png"
   },
   {
     "retailer": "DoorDash",
@@ -1892,7 +1892,7 @@
     "id": "doordash-1",
     "title": "DoorDash",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/doordash-1.png"
   },
   {
     "retailer": "Netflix",
@@ -1906,7 +1906,7 @@
     "id": "netflix-1",
     "title": "Netflix",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/netflix.com?size=128"
+    "logo": "/assets/logos/netflix-1.png"
   },
   {
     "retailer": "Disney+",
@@ -1920,7 +1920,7 @@
     "id": "disney-1",
     "title": "Disney+",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/disneyplus.com?size=128"
+    "logo": "/assets/logos/disney-1.png"
   },
   {
     "retailer": "Binge",
@@ -1934,7 +1934,7 @@
     "id": "binge-1",
     "title": "Binge",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/binge.com.au?size=128"
+    "logo": "/assets/logos/binge-1.png"
   },
   {
     "retailer": "Stan",
@@ -1948,7 +1948,7 @@
     "id": "stan-1",
     "title": "Stan",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/stan.com.au?size=128"
+    "logo": "/assets/logos/stan-1.png"
   },
   {
     "retailer": "Kayo Sports",
@@ -1962,7 +1962,7 @@
     "id": "kayo-sports-1",
     "title": "Kayo Sports",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/kayosports.com.au?size=128"
+    "logo": "/assets/logos/kayo-sports-1.png"
   },
   {
     "retailer": "Paramount+",
@@ -1976,7 +1976,7 @@
     "id": "paramount-1",
     "title": "Paramount+",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/paramountplus.com?size=128"
+    "logo": "/assets/logos/paramount-1.png"
   },
   {
     "retailer": "Hoyts LUX",
@@ -1990,7 +1990,7 @@
     "id": "hoyts-lux-1",
     "title": "Hoyts LUX",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/hoyts.com.au?size=128"
+    "logo": "/assets/logos/hoyts-lux-1.png"
   },
   {
     "retailer": "Palace Cinemas",
@@ -2004,7 +2004,7 @@
     "id": "palace-cinemas-1",
     "title": "Palace Cinemas",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/palacecinemas.com.au?size=128"
+    "logo": "/assets/logos/palace-cinemas-1.png"
   },
   {
     "retailer": "Dendy Cinemas",
@@ -2018,7 +2018,7 @@
     "id": "dendy-cinemas-1",
     "title": "Dendy Cinemas",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/dendy.com.au?size=128"
+    "logo": "/assets/logos/dendy-cinemas-1.png"
   },
   {
     "retailer": "Ritz Cinema",
@@ -2032,7 +2032,7 @@
     "id": "ritz-cinema-1",
     "title": "Ritz Cinema",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/ritzcinema.com.au?size=128"
+    "logo": "/assets/logos/ritz-cinema-1.png"
   },
   {
     "retailer": "Event Cinemas Gold Class",
@@ -2046,7 +2046,7 @@
     "id": "event-cinemas-gold-class-1",
     "title": "Event Cinemas Gold Class",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/eventcinemas.com.au?size=128"
+    "logo": "/assets/logos/event-cinemas-gold-class-1.png"
   },
   {
     "retailer": "Sydney Festival",
@@ -2060,7 +2060,7 @@
     "id": "sydney-festival-1",
     "title": "Sydney Festival",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/sydneyfestival.org.au?size=128"
+    "logo": "/assets/logos/sydney-festival-1.png"
   },
   {
     "retailer": "Vivid Sydney",
@@ -2074,7 +2074,7 @@
     "id": "vivid-sydney-1",
     "title": "Vivid Sydney",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/vividsydney.com?size=128"
+    "logo": "/assets/logos/vivid-sydney-1.png"
   },
   {
     "retailer": "Sydney Fringe Festival",
@@ -2088,7 +2088,7 @@
     "id": "sydney-fringe-festival-1",
     "title": "Sydney Fringe Festival",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/sydneyfringe.com?size=128"
+    "logo": "/assets/logos/sydney-fringe-festival-1.png"
   },
   {
     "retailer": "Mardi Gras",
@@ -2102,7 +2102,7 @@
     "id": "mardi-gras-1",
     "title": "Mardi Gras",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/mardigras.org.au?size=128"
+    "logo": "/assets/logos/mardi-gras-1.png"
   },
   {
     "retailer": "Splendour in the Grass",
@@ -2116,7 +2116,7 @@
     "id": "splendour-in-the-grass-1",
     "title": "Splendour in the Grass",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/splendourinthegrass.com?size=128"
+    "logo": "/assets/logos/splendour-in-the-grass-1.png"
   },
   {
     "retailer": "Groovin the Moo",
@@ -2130,7 +2130,7 @@
     "id": "groovin-the-moo-1",
     "title": "Groovin the Moo",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/gtm.net.au?size=128"
+    "logo": "/assets/logos/groovin-the-moo-1.png"
   },
   {
     "retailer": "Laneway Festival",
@@ -2144,7 +2144,7 @@
     "id": "laneway-festival-1",
     "title": "Laneway Festival",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/lanewayfestival.com?size=128"
+    "logo": "/assets/logos/laneway-festival-1.png"
   },
   {
     "retailer": "Field Day",
@@ -2171,7 +2171,7 @@
     "id": "lost-paradise-1",
     "title": "Lost Paradise",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/lostparadise.com.au?size=128"
+    "logo": "/assets/logos/lost-paradise-1.png"
   },
   {
     "retailer": "Good Things Festival",
@@ -2185,7 +2185,7 @@
     "id": "good-things-festival-1",
     "title": "Good Things Festival",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/goodthingsfestival.com.au?size=128"
+    "logo": "/assets/logos/good-things-festival-1.png"
   },
   {
     "retailer": "Sydney Royal Easter Show",
@@ -2199,7 +2199,7 @@
     "id": "sydney-royal-easter-show-1",
     "title": "Sydney Royal Easter Show",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/eastershow.com.au?size=128"
+    "logo": "/assets/logos/sydney-royal-easter-show-1.png"
   },
   {
     "retailer": "Sydney Writers’ Festival",
@@ -2213,7 +2213,7 @@
     "id": "sydney-writers-festival-1",
     "title": "Sydney Writers’ Festival",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/swf.org.au?size=128"
+    "logo": "/assets/logos/sydney-writers-festival-1.png"
   },
   {
     "retailer": "Sydney Film Festival",
@@ -2227,7 +2227,7 @@
     "id": "sydney-film-festival-1",
     "title": "Sydney Film Festival",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/sff.org.au?size=128"
+    "logo": "/assets/logos/sydney-film-festival-1.png"
   },
   {
     "retailer": "Sydney Comedy Festival",
@@ -2241,7 +2241,7 @@
     "id": "sydney-comedy-festival-1",
     "title": "Sydney Comedy Festival",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/sydneycomedyfest.com.au?size=128"
+    "logo": "/assets/logos/sydney-comedy-festival-1.png"
   },
   {
     "retailer": "Sydney Science Festival",
@@ -2255,7 +2255,7 @@
     "id": "sydney-science-festival-1",
     "title": "Sydney Science Festival",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/sydneyscience.com.au?size=128"
+    "logo": "/assets/logos/sydney-science-festival-1.png"
   },
   {
     "retailer": "Sydney Contemporary",
@@ -2269,7 +2269,7 @@
     "id": "sydney-contemporary-1",
     "title": "Sydney Contemporary",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/sydneycontemporary.com.au?size=128"
+    "logo": "/assets/logos/sydney-contemporary-1.png"
   },
   {
     "retailer": "Carriageworks",
@@ -2283,7 +2283,7 @@
     "id": "carriageworks-1",
     "title": "Carriageworks",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/carriageworks.com.au?size=128"
+    "logo": "/assets/logos/carriageworks-1.png"
   },
   {
     "retailer": "White Rabbit Gallery",
@@ -2297,7 +2297,7 @@
     "id": "white-rabbit-gallery-1",
     "title": "White Rabbit Gallery",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/whiterabbitcollection.org?size=128"
+    "logo": "/assets/logos/white-rabbit-gallery-1.png"
   },
   {
     "retailer": "4 Pines Brewery",
@@ -2311,7 +2311,7 @@
     "id": "4-pines-brewery-1",
     "title": "4 Pines Brewery",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/4pinesbeer.com.au?size=128"
+    "logo": "/assets/logos/4-pines-brewery-1.png"
   },
   {
     "retailer": "Young Henrys Brewery",
@@ -2325,7 +2325,7 @@
     "id": "young-henrys-brewery-1",
     "title": "Young Henrys Brewery",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/younghenrys.com?size=128"
+    "logo": "/assets/logos/young-henrys-brewery-1.png"
   },
   {
     "retailer": "Batch Brewing Co",
@@ -2339,7 +2339,7 @@
     "id": "batch-brewing-co-1",
     "title": "Batch Brewing Co",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/batchbrewingco.com.au?size=128"
+    "logo": "/assets/logos/batch-brewing-co-1.png"
   },
   {
     "retailer": "Grifter Brewing Co",
@@ -2353,7 +2353,7 @@
     "id": "grifter-brewing-co-1",
     "title": "Grifter Brewing Co",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/thegrifter.com.au?size=128"
+    "logo": "/assets/logos/grifter-brewing-co-1.png"
   },
   {
     "retailer": "Merivale Venues",
@@ -2367,7 +2367,7 @@
     "id": "merivale-venues-1",
     "title": "Merivale Venues",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/merivale.com?size=128"
+    "logo": "/assets/logos/merivale-venues-1.png"
   },
   {
     "retailer": "IKEA",
@@ -2381,7 +2381,7 @@
     "id": "ikea-1",
     "title": "IKEA",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/ikea.com?size=128"
+    "logo": "/assets/logos/ikea-1.png"
   },
   {
     "retailer": "Freedom Furniture",
@@ -2395,7 +2395,7 @@
     "id": "freedom-furniture-1",
     "title": "Freedom Furniture",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/freedom.com.au?size=128"
+    "logo": "/assets/logos/freedom-furniture-1.png"
   },
   {
     "retailer": "Fantastic Furniture",
@@ -2409,7 +2409,7 @@
     "id": "fantastic-furniture-1",
     "title": "Fantastic Furniture",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/fantasticfurniture.com.au?size=128"
+    "logo": "/assets/logos/fantastic-furniture-1.png"
   },
   {
     "retailer": "Harvey Norman",
@@ -2423,7 +2423,7 @@
     "id": "harvey-norman-1",
     "title": "Harvey Norman",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/harveynorman.com.au?size=128"
+    "logo": "/assets/logos/harvey-norman-1.png"
   },
   {
     "retailer": "Bunnings Warehouse",
@@ -2437,7 +2437,7 @@
     "id": "bunnings-warehouse-1",
     "title": "Bunnings Warehouse",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/bunnings.com.au?size=128"
+    "logo": "/assets/logos/bunnings-warehouse-1.png"
   },
   {
     "retailer": "Rebel Sport",
@@ -2451,7 +2451,7 @@
     "id": "rebel-sport-1",
     "title": "Rebel Sport",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/rebel-sport-1.png"
   },
   {
     "retailer": "JD Sports",
@@ -2478,7 +2478,7 @@
     "id": "foot-locker-1",
     "title": "Foot Locker",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/foot-locker-1.png"
   },
   {
     "retailer": "Platypus Shoes",
@@ -2492,7 +2492,7 @@
     "id": "platypus-shoes-1",
     "title": "Platypus Shoes",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/platypus-shoes-1.png"
   },
   {
     "retailer": "Hype DC",
@@ -2506,7 +2506,7 @@
     "id": "hype-dc-1",
     "title": "Hype DC",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/hype-dc-1.png"
   },
   {
     "retailer": "General Pants Co",
@@ -2520,7 +2520,7 @@
     "id": "general-pants-co-1",
     "title": "General Pants Co",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/generalpants.com?size=128"
+    "logo": "/assets/logos/general-pants-co-1.png"
   },
   {
     "retailer": "Glue Store",
@@ -2534,7 +2534,7 @@
     "id": "glue-store-1",
     "title": "Glue Store",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/gluestore.com.au?size=128"
+    "logo": "/assets/logos/glue-store-1.png"
   },
   {
     "retailer": "Universal Store",
@@ -2548,7 +2548,7 @@
     "id": "universal-store-1",
     "title": "Universal Store",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/universal-store-1.png"
   },
   {
     "retailer": "Cotton On Body",
@@ -2562,7 +2562,7 @@
     "id": "cotton-on-body-1",
     "title": "Cotton On Body",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/cottonon.com?size=128"
+    "logo": "/assets/logos/cotton-on-body-1.png"
   },
   {
     "retailer": "Typo",
@@ -2576,7 +2576,7 @@
     "id": "typo-1",
     "title": "Typo",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/cottonon.com?size=128"
+    "logo": "/assets/logos/typo-1.png"
   },
   {
     "retailer": "Smiggle",
@@ -2590,7 +2590,7 @@
     "id": "smiggle-1",
     "title": "Smiggle",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/smiggle-1.png"
   },
   {
     "retailer": "Lorna Jane",
@@ -2604,7 +2604,7 @@
     "id": "lorna-jane-1",
     "title": "Lorna Jane",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/lornajane.com.au?size=128"
+    "logo": "/assets/logos/lorna-jane-1.png"
   },
   {
     "retailer": "Lululemon",
@@ -2618,7 +2618,7 @@
     "id": "lululemon-1",
     "title": "Lululemon",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/shop.lululemon.com?size=128"
+    "logo": "/assets/logos/lululemon-1.png"
   },
   {
     "retailer": "Aesop",
@@ -2632,7 +2632,7 @@
     "id": "aesop-1",
     "title": "Aesop",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/studentedge.org?size=128"
+    "logo": "/assets/logos/aesop-1.png"
   },
   {
     "retailer": "Mecca",
@@ -2646,7 +2646,7 @@
     "id": "mecca-1",
     "title": "Mecca",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/mecca.com.au?size=128"
+    "logo": "/assets/logos/mecca-1.png"
   },
   {
     "retailer": "Sephora",
@@ -2660,7 +2660,7 @@
     "id": "sephora-1",
     "title": "Sephora",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/sephora.com.au?size=128"
+    "logo": "/assets/logos/sephora-1.png"
   },
   {
     "retailer": "Priceline",
@@ -2674,7 +2674,7 @@
     "id": "priceline-1",
     "title": "Priceline",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/priceline.com.au?size=128"
+    "logo": "/assets/logos/priceline-1.png"
   },
   {
     "retailer": "Chemist Warehouse",
@@ -2688,7 +2688,7 @@
     "id": "chemist-warehouse-1",
     "title": "Chemist Warehouse",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/chemistwarehouse.com.au?size=128"
+    "logo": "/assets/logos/chemist-warehouse-1.png"
   },
   {
     "retailer": "Oasis Café",
@@ -2715,7 +2715,7 @@
     "id": "the-coffee-cart-1",
     "title": "The Coffee Cart",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/facebook.com?size=128"
+    "logo": "/assets/logos/the-coffee-cart-1.png"
   },
   {
     "retailer": "Lantana Café",
@@ -2729,7 +2729,7 @@
     "id": "lantana-caf-1",
     "title": "Lantana Café",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/facebook.com?size=128"
+    "logo": "/assets/logos/lantana-caf-1.png"
   },
   {
     "retailer": "Newtown Hotel",
@@ -2743,7 +2743,7 @@
     "id": "newtown-hotel-1",
     "title": "Newtown Hotel",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/newtownhotel.com.au?size=128"
+    "logo": "/assets/logos/newtown-hotel-1.png"
   },
   {
     "retailer": "Gong Cha",
@@ -2757,6 +2757,6 @@
     "id": "gong-cha-1",
     "title": "Gong Cha",
     "placeholder": false,
-    "logo": "https://logo.clearbit.com/gong-cha.com?size=128"
+    "logo": "/assets/logos/gong-cha-1.png"
   }
 ]
