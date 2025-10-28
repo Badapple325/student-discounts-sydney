@@ -16,110 +16,25 @@ async function loadDeals(){
     const payload = await res.json();
     // api/deals returns {ok:true, results: [...]}
     deals = Array.isArray(payload.results) ? payload.results : (Array.isArray(payload) ? payload : payload.results || []);
-    renderDeals(deals || []);
-    // also pre-load resources for the test page
-    loadResources();
+  renderDeals(deals || []);
   }catch(e){
     dealsContainer.innerHTML = '<p class="muted">Could not load deals. Make sure deals.json is present.</p>';
     console.error(e);
   }
 }
 
-let resources = [];
-const resourcesContainer = () => document.getElementById('resources');
-
-async function loadResources(){
-  try{
-    const res = await fetch('resources.json');
-    resources = await res.json();
-    renderResources(resources);
-  }catch(e){
-    const el = resourcesContainer();
-    if(el) el.innerHTML = '<p class="muted">Could not load resources.json.</p>';
-    console.error(e);
-  }
-}
-
-function renderResources(list){
-  const el = resourcesContainer();
-  if(!el) return;
-  if(!list || !list.length){ el.innerHTML = '<p class="muted">No resources found.</p>'; return; }
-  el.innerHTML = list.map((r, i) => `
-    <article class="card">
-      <h3>${escapeHtml(r.title)}</h3>
-      <div class="meta"><span class="small">${escapeHtml(r.provider)} — ${escapeHtml(r.category)}</span></div>
-      <p>${escapeHtml(r.description)}</p>
-      <p class="small">${escapeHtml(r.price_display || r.price)}</p>
-      <p><a href="#" class="resource-link" data-link="${encodeURIComponent(r.link)}" data-title="${encodeURIComponent(r.title)}">Open resource</a>
-      ${r.code? ' <button class="btn btn-ghost" data-copy="' + encodeURIComponent(r.code) + '">Copy code: ' + escapeHtml(r.code) + '</button>' : ''}
-      </p>
-    </article>
-  `).join('');
-
-  // attach click handlers to resource links
-  Array.from(document.querySelectorAll('.resource-link')).forEach(a=>{
-    a.addEventListener('click', e=>{
-      e.preventDefault();
-      const href = decodeURIComponent(a.getAttribute('data-link'));
-      const title = decodeURIComponent(a.getAttribute('data-title') || '');
-      // If this is a placeholder link (example.com) don't navigate; show a friendly message
-      if(String(href).includes('example.com')){
-        alert('This resource has a placeholder link configured and does not navigate externally yet.');
-        fetch('/api/track', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ event:'resource_click_placeholder', data:{ title, href } }) }).catch(()=>{});
-        return;
-      }
-      // log resource click
-      fetch('/api/track', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ event:'resource_click', data:{ title, href } }) }).catch(()=>{});
-      window.open(href, '_blank', 'noopener');
-    });
-  });
-
-  // attach copy handlers for any resource codes
-  Array.from(document.querySelectorAll('button[data-copy]')).forEach(btn=>{
-    btn.addEventListener('click', async ()=>{
-      const code = decodeURIComponent(btn.getAttribute('data-copy'));
-      try{ await navigator.clipboard.writeText(code); alert('Copied code: ' + code); fetch('/api/track', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ event:'resource_copy_code', data:{ code } }) }).catch(()=>{}); }catch(e){ alert('Could not copy: ' + code); }
-    });
-  });
-}
-
-// Tab switching between deals and resources
+// Tab switching: only keep Deals tab active (resources removed for launch)
 const tabDeals = document.getElementById('tab-deals');
-const tabResources = document.getElementById('tab-resources');
-if(tabDeals && tabResources){
+if(tabDeals){
   tabDeals.addEventListener('click', ()=>{
-    document.getElementById('deals').style.display = '';
-    document.getElementById('resources').style.display = 'none';
+    const dealsEl = document.getElementById('deals');
+    const resourcesEl = document.getElementById('resources');
+    if(dealsEl) dealsEl.style.display = '';
+    if(resourcesEl) resourcesEl.style.display = 'none';
     const rc = document.getElementById('resource-controls'); if(rc) rc.style.display = 'none';
-    tabDeals.classList.add('active'); tabResources.classList.remove('active');
-  });
-  tabResources.addEventListener('click', ()=>{
-    document.getElementById('deals').style.display = 'none';
-    document.getElementById('resources').style.display = '';
-    const rc = document.getElementById('resource-controls'); if(rc) rc.style.display = '';
-    tabResources.classList.add('active'); tabDeals.classList.remove('active');
+    tabDeals.classList.add('active');
   });
 }
-
-// Resource filters
-const resourceSearch = document.getElementById('resource-search');
-const resourceFilterCat = document.getElementById('resource-filter-cat');
-function resourceFilterAndRender(){
-  if(!resources || !resources.length) return renderResources([]);
-  const q = (resourceSearch && resourceSearch.value || '').toLowerCase().trim();
-  const cat = (resourceFilterCat && resourceFilterCat.value) || 'all';
-  const out = resources.filter(r => {
-    if(cat !== 'all' && r.category !== cat) return false;
-    if(q){
-      const hay = (r.title + ' ' + r.provider + ' ' + (r.category||'') + ' ' + (r.description||'')).toLowerCase();
-      return hay.includes(q);
-    }
-    return true;
-  });
-  renderResources(out);
-}
-if(resourceSearch) resourceSearch.addEventListener('input', resourceFilterAndRender);
-if(resourceFilterCat) resourceFilterCat.addEventListener('change', resourceFilterAndRender);
 
 function escapeHtml(str){
   if(!str) return '';
