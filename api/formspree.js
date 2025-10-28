@@ -34,8 +34,37 @@ export default async function handler(req, res) {
       console.error('[formspree webhook] forward failed', String(err));
     }
 
-    // Respond 200 to acknowledge webhook
-    res.status(200).json({ ok: true });
+    // Also optionally write the submission to Airtable if configured
+    // Prefer AIRTABLE_TOKEN (PAT) but remain compatible with AIRTABLE_API_KEY
+    const AIRTABLE_TOKEN = process.env.AIRTABLE_TOKEN || process.env.AIRTABLE_API_KEY;
+    const AIRTABLE_BASE_ID = process.env.AIRTABLE_BASE_ID;
+    const FORM_TABLE = process.env.FORMSPREE_TABLE_NAME || 'FormSubmissions';
+    // Optionally write the submission to Airtable and capture response when debugging
+    let airtableDebugResult = null;
+    const debugAirtable = String(process.env.DEBUG_AIRTABLE || '').toLowerCase() === '1' || String(process.env.DEBUG || '').toLowerCase() === '1';
+    if(AIRTABLE_TOKEN && AIRTABLE_BASE_ID){
+      try{
+        const airtableUrl = `https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${encodeURIComponent(FORM_TABLE)}`;
+        const record = { fields: Object.assign({ received_at: new Date().toISOString() }, payload ) };
+        const resp = await fetch(airtableUrl, {
+          method: 'POST',
+          headers: { 'Authorization': 'Bearer ' + AIRTABLE_TOKEN, 'Content-Type':'application/json' },
+          body: JSON.stringify({ records: [ record ] })
+        });
+        if(debugAirtable){
+          const text = await resp.text();
+          try{ airtableDebugResult = JSON.parse(text); }catch(e){ airtableDebugResult = text; }
+        }
+      }catch(e){
+        console.error('[formspree webhook] airtable forward failed', String(e));
+        if(debugAirtable) airtableDebugResult = { error: String(e) };
+      }
+    }
+
+  // Respond 200 to acknowledge webhook
+  const baseResponse = { ok: true };
+  if(debugAirtable && airtableDebugResult) baseResponse.airtable = airtableDebugResult;
+  res.status(200).json(baseResponse);
   } catch (err) {
     console.error('formspree webhook handler error', err);
     res.status(500).json({ error: 'internal' });

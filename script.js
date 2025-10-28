@@ -10,30 +10,103 @@ async function loadDeals(){
     const res = await fetch('deals.json');
     deals = await res.json();
     renderDeals(deals);
+    // also pre-load resources for the test page
+    loadResources();
   }catch(e){
     dealsContainer.innerHTML = '<p class="muted">Could not load deals. Make sure deals.json is present.</p>';
     console.error(e);
   }
 }
 
-function renderDeals(list){
-  if(!list.length){
-    dealsContainer.innerHTML = '<p class="muted">No deals found.</p>';
-    return;
+let resources = [];
+const resourcesContainer = () => document.getElementById('resources');
+
+async function loadResources(){
+  try{
+    const res = await fetch('resources.json');
+    resources = await res.json();
+    renderResources(resources);
+  }catch(e){
+    const el = resourcesContainer();
+    if(el) el.innerHTML = '<p class="muted">Could not load resources.json.</p>';
+    console.error(e);
   }
-  dealsContainer.innerHTML = list.map(d => `
+}
+
+function renderResources(list){
+  const el = resourcesContainer();
+  if(!el) return;
+  if(!list || !list.length){ el.innerHTML = '<p class="muted">No resources found.</p>'; return; }
+  el.innerHTML = list.map((r, i) => `
     <article class="card">
-      <h3>${escapeHtml(d.retailer)}</h3>
-      <div class="meta">
-        <span class="badge">${escapeHtml(d.category)}</span>
-        <span class="small">${escapeHtml(d.universityLabel || 'All Sydney unis')}</span>
-      </div>
-      <p>${escapeHtml(d.description)}</p>
-      ${d.link? `<p><a href="${d.link}" target="_blank" rel="noopener">View terms / retailer</a></p>`:''}
-      ${d.how? `<p class="muted">How to claim: ${escapeHtml(d.how)}</p>`:''}
+      <h3>${escapeHtml(r.title)}</h3>
+      <div class="meta"><span class="small">${escapeHtml(r.provider)} — ${escapeHtml(r.category)}</span></div>
+      <p>${escapeHtml(r.description)}</p>
+      <p class="small">${escapeHtml(r.price_display || r.price)}</p>
+      <p><a href="#" class="resource-link" data-link="${encodeURIComponent(r.link)}" data-title="${encodeURIComponent(r.title)}">Open resource</a>
+      ${r.code? ' <button class="btn btn-ghost" data-copy="' + encodeURIComponent(r.code) + '">Copy code: ' + escapeHtml(r.code) + '</button>' : ''}
+      </p>
     </article>
   `).join('');
+
+  // attach click handlers to resource links
+  Array.from(document.querySelectorAll('.resource-link')).forEach(a=>{
+    a.addEventListener('click', e=>{
+      e.preventDefault();
+      const href = decodeURIComponent(a.getAttribute('data-link'));
+      const title = decodeURIComponent(a.getAttribute('data-title') || '');
+      // log resource click
+      fetch('/api/track', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ event:'resource_click', data:{ title, href } }) }).catch(()=>{});
+      window.open(href, '_blank', 'noopener');
+    });
+  });
+
+  // attach copy handlers for any resource codes
+  Array.from(document.querySelectorAll('button[data-copy]')).forEach(btn=>{
+    btn.addEventListener('click', async ()=>{
+      const code = decodeURIComponent(btn.getAttribute('data-copy'));
+      try{ await navigator.clipboard.writeText(code); alert('Copied code: ' + code); fetch('/api/track', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ event:'resource_copy_code', data:{ code } }) }).catch(()=>{}); }catch(e){ alert('Could not copy: ' + code); }
+    });
+  });
 }
+
+// Tab switching between deals and resources
+const tabDeals = document.getElementById('tab-deals');
+const tabResources = document.getElementById('tab-resources');
+if(tabDeals && tabResources){
+  tabDeals.addEventListener('click', ()=>{
+    document.getElementById('deals').style.display = '';
+    document.getElementById('resources').style.display = 'none';
+    const rc = document.getElementById('resource-controls'); if(rc) rc.style.display = 'none';
+    tabDeals.classList.add('active'); tabResources.classList.remove('active');
+  });
+  tabResources.addEventListener('click', ()=>{
+    document.getElementById('deals').style.display = 'none';
+    document.getElementById('resources').style.display = '';
+    const rc = document.getElementById('resource-controls'); if(rc) rc.style.display = '';
+    tabResources.classList.add('active'); tabDeals.classList.remove('active');
+  });
+}
+
+// Resource filters
+const resourceSearch = document.getElementById('resource-search');
+const resourceFilterCat = document.getElementById('resource-filter-cat');
+function resourceFilterAndRender(){
+  if(!resources || !resources.length) return renderResources([]);
+  const q = (resourceSearch && resourceSearch.value || '').toLowerCase().trim();
+  const cat = (resourceFilterCat && resourceFilterCat.value) || 'all';
+  const out = resources.filter(r => {
+    if(cat !== 'all' && r.category !== cat) return false;
+    if(q){
+      const hay = (r.title + ' ' + r.provider + ' ' + (r.category||'') + ' ' + (r.description||'')).toLowerCase();
+      return hay.includes(q);
+    }
+    return true;
+  });
+  renderResources(out);
+}
+if(resourceSearch) resourceSearch.addEventListener('input', resourceFilterAndRender);
+if(resourceFilterCat) resourceFilterCat.addEventListener('change', resourceFilterAndRender);
 
 function escapeHtml(str){
   if(!str) return '';
@@ -43,6 +116,64 @@ function escapeHtml(str){
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
+}
+
+function slugify(s){
+  return String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
+}
+
+function renderDeals(list){
+  if(!list.length){
+    dealsContainer.innerHTML = '<p class="muted">No deals found.</p>';
+    return;
+  }
+
+  // Build HTML
+  dealsContainer.innerHTML = list.map((d, i) => {
+    const slug = d.id || slugify(d.retailer) || String(i);
+    return `
+    <article class="card">
+      <h3>${escapeHtml(d.retailer)}</h3>
+      <div class="meta">
+        <span class="badge">${escapeHtml(d.category)}</span>
+        <span class="small">${escapeHtml(d.universityLabel || 'All Sydney unis')}</span>
+      </div>
+      <p>${escapeHtml(d.description)}</p>
+      ${d.link? `<p><a href="/api/redirect?slug=${encodeURIComponent(slug)}" target="_blank" rel="noopener">View terms / retailer</a></p>` : ''}
+      ${d.code? `<p><button class="btn btn-ghost" data-copy="${encodeURIComponent(d.code)}">Copy code: ${escapeHtml(d.code)}</button></p>` : ''}
+      ${d.link? `<p><button class="btn btn-primary" data-claim-slug="${encodeURIComponent(slug)}">Claim / Open</button></p>` : ''}
+      ${d.how? `<p class="muted">How to claim: ${escapeHtml(d.how)}</p>` : ''}
+    </article>`;
+  }).join('');
+
+  // attach copy handlers
+  Array.from(document.querySelectorAll('button[data-copy]')).forEach(btn=>{
+    btn.addEventListener('click', async (e)=>{
+      const code = decodeURIComponent(btn.getAttribute('data-copy'));
+      try{
+        await navigator.clipboard.writeText(code);
+        alert('Promo code copied: ' + code);
+        // log copy event
+        fetch('/api/track', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ event: 'copy_code', data: { code } }) }).catch(()=>{});
+      }catch(err){
+        console.error('copy failed', err);
+        alert('Could not copy automatically — please select and copy: ' + code);
+      }
+    });
+  });
+
+  // attach claim handlers
+  Array.from(document.querySelectorAll('button[data-claim-slug]')).forEach(btn=>{
+    btn.addEventListener('click', async ()=>{
+      const slug = decodeURIComponent(btn.getAttribute('data-claim-slug'));
+      const ok = confirm('Open retailer page and log your claim intent?');
+      if(!ok) return;
+      // log claim intent
+      try{ await fetch('/api/track', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ event: 'claim_intent', data:{ slug } }) }); }catch(e){}
+      // open redirect endpoint
+      window.open('/api/redirect?slug=' + encodeURIComponent(slug), '_blank', 'noopener');
+    });
+  });
 }
 
 function filterAndRender(){

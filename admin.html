@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admin — Student Discounts</title>
+  <link rel="stylesheet" href="style.css">
+  <style>body{padding:18px} textarea{width:100%;height:320px;font-family:monospace}</style>
+</head>
+<body>
+  <h1>Admin</h1>
+  <p>This admin interface requires the `ADMIN_KEY` set in Vercel and passing it as `?key=YOURKEY` in the URL.</p>
+  <section>
+    <h2>Events</h2>
+    <p>Recent events (fetched from Airtable if configured, otherwise local log).</p>
+    <div id="events-list">Loading...</div>
+  </section>
+
+  <section>
+    <h2>Resources (editable)</h2>
+    <p>Edit the JSON for `resources.json` below and click Save to write to the site. Be careful — this overwrites the file.</p>
+    <textarea id="resources-json">Loading...</textarea>
+    <div style="margin-top:8px"><button id="save-resources">Save resources</button></div>
+    <div id="admin-msg" style="margin-top:8px;color:green"></div>
+  </section>
+
+  <script>
+    const qp = new URLSearchParams(location.search);
+    const key = qp.get('key');
+    if(!key){ document.getElementById('events-list').innerText = 'No key provided. Open this page with ?key=YOUR_ADMIN_KEY'; }
+
+    async function loadEvents(){
+      try{
+        const res = await fetch('/api/events?key=' + encodeURIComponent(key));
+        if(!res.ok) throw new Error('failed');
+        const arr = await res.json();
+        const list = arr.slice().reverse().slice(0,200).map(it => `<div style="border-bottom:1px solid #ddd;padding:6px"><strong>${it.event}</strong> ${it.ts}<div style="font-family:monospace">${JSON.stringify(it.data)}</div></div>`).join('');
+        document.getElementById('events-list').innerHTML = list || '<p>No events yet</p>';
+      }catch(e){ document.getElementById('events-list').innerText = 'Could not load events: ' + e.message; }
+    }
+
+    async function loadResources(){
+      try{
+        const res = await fetch('/api/admin-resources?key=' + encodeURIComponent(key));
+        if(!res.ok) throw new Error('failed');
+        const arr = await res.json();
+        document.getElementById('resources-json').value = JSON.stringify(arr, null, 2);
+      }catch(e){ document.getElementById('resources-json').value = 'Could not load resources: ' + e.message; }
+    }
+
+    document.getElementById('save-resources').addEventListener('click', async ()=>{
+      const txt = document.getElementById('resources-json').value;
+      try{
+        // basic validation
+        const data = JSON.parse(txt);
+        if(!Array.isArray(data)) throw new Error('resources must be an array of objects');
+        if(!confirm('Save resources? This will overwrite the current resources.')) return;
+        const res = await fetch('/api/admin-resources?key=' + encodeURIComponent(key), { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(data) });
+        if(!res.ok) throw new Error('save failed');
+        document.getElementById('admin-msg').style.color='green'; document.getElementById('admin-msg').innerText = 'Saved successfully';
+        setTimeout(()=>document.getElementById('admin-msg').innerText = '', 3000);
+        loadResources();
+      }catch(e){ document.getElementById('admin-msg').style.color='red'; document.getElementById('admin-msg').innerText = 'Save failed: ' + e.message; }
+    });
+
+    loadEvents(); loadResources();
+  </script>
+</body>
+</html>
