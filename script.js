@@ -117,3 +117,24 @@ placesSearchBtn && placesSearchBtn.addEventListener('click', ()=>{
   const q = (placesQuery && placesQuery.value) || '';
   searchPlaces(q.trim());
 });
+
+// UTM capture: fill hidden fields from URL parameters so we can track campaign origin without GA
+function getParam(name){
+  const m = new RegExp('(?:[?&])'+name+'=([^&]*)').exec(location.search);
+  return m? decodeURIComponent(m[1].replace(/\+/g,' ')) : '';
+}
+function fillUtmFields(){
+  const utms = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
+  utms.forEach(k=>{
+    const val = getParam(k);
+    // main signup
+    const el = document.getElementById(k);
+    if(el && val) el.value = val;
+    // submit-deal form fields have prefix submit_
+    const el2 = document.getElementById('submit_'+k);
+    if(el2 && val) el2.value = val;
+  });
+}
+
+// populate utm fields on load
+document.addEventListener('DOMContentLoaded', fillUtmFields);

@@ -6,6 +6,13 @@
   <title>Sydney Student Discounts — Verified deals for Uni of Sydney, UNSW & UTS</title>
   <link rel="stylesheet" href="style.css">
   <meta name="description" content="Save on food, tech, transport & more — student discounts around Sydney universities. Join the weekly list.">
+  <!-- Open Graph / social meta -->
+  <meta property="og:title" content="Sydney Student Discounts — Uni of Sydney, UNSW, UTS" />
+  <meta property="og:description" content="Verified student deals for Sydney universities: food, tech, fitness & more." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://student-discounts-sydney.vercel.app/" />
+  <meta property="og:image" content="/social-preview.png" />
+  <meta name="twitter:card" content="summary_large_image" />
   <!-- Optional: add your GA4 measurement ID in the script below (G-XXXXXXX) -->
   <script>
     /* GA4 placeholder - replace 'G-XXXXXXX' with your Measurement ID to enable analytics */
@@ -40,7 +47,16 @@
             <option value="uts">UTS</option>
             <option value="macquarie">Macquarie</option>
             <option value="western">Western Sydney</option>
+            <option value="uow">UOW (Wollongong)</option>
           </select>
+          <!-- UTM hidden fields populated by script.js -->
+          <input type="hidden" name="utm_source" id="utm_source">
+          <input type="hidden" name="utm_medium" id="utm_medium">
+          <input type="hidden" name="utm_campaign" id="utm_campaign">
+          <input type="hidden" name="utm_term" id="utm_term">
+          <input type="hidden" name="utm_content" id="utm_content">
+          <!-- After submit redirect to local thank-you page for measuring conversions without GA -->
+          <input type="hidden" name="_next" value="/thanks.html">
           <button type="submit">Join the free weekly list</button>
         </form>
         <p class="note">No spam. You can unsubscribe anytime.</p>
@@ -59,13 +75,19 @@
         <option value="uts">UTS</option>
         <option value="macquarie">Macquarie</option>
         <option value="western">Western Sydney</option>
+        <option value="uow">UOW (Wollongong)</option>
       </select>
       <select id="filter-cat">
         <option value="all">All categories</option>
         <option value="food">Food & Coffee</option>
         <option value="tech">Tech & Software</option>
+        <option value="software">Software & Subscriptions</option>
         <option value="fitness">Fitness</option>
         <option value="fashion">Fashion</option>
+        <option value="entertainment">Entertainment</option>
+        <option value="transport">Transport & Mobility</option>
+        <option value="study">Study & Courses</option>
+        <option value="housing">Housing & Storage</option>
         <option value="services">Services</option>
       </select>
     </section>
@@ -98,7 +120,14 @@
           <option value="uts">UTS</option>
           <option value="macquarie">Macquarie</option>
           <option value="western">Western Sydney</option>
+          <option value="uow">UOW (Wollongong)</option>
         </select>
+        <input type="hidden" name="utm_source" id="submit_utm_source">
+        <input type="hidden" name="utm_medium" id="submit_utm_medium">
+        <input type="hidden" name="utm_campaign" id="submit_utm_campaign">
+        <input type="hidden" name="utm_term" id="submit_utm_term">
+        <input type="hidden" name="utm_content" id="submit_utm_content">
+        <input type="hidden" name="_next" value="/thanks.html">
         <button type="submit">Send deal</button>
       </form>
     </section>
@@ -117,7 +146,7 @@
   <footer>
     <div class="container">
       <p>Built for Sydney students. <small>Use offers responsibly. We list deals for convenience and verify where possible.</small></p>
-      <p class="muted">This is an independent site, not affiliated with any university.</p>
+      <p class="muted">This is an independent site, not affiliated with any university. <a href="/privacy.html">Privacy</a></p>
     </div>
   </footer>
 
